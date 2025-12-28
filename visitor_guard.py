@@ -16,7 +16,7 @@ VIS_DIR = ROOT / "visitors"
 
 # --- parse README table ---------------------------------------------------
 rows = []
-pattern = re.compile(r"^\|\|\s*(.+?)\s*\|\s*(.+?)\s*\|\s*\[(.+?)\]\(visitors/(.+?)\)\s*\|")
+pattern = re.compile(r"^\|{1,2}\s*(.+?)\s*\|\s*(.+?)\s*\|\s*\[(.+?)\]\(visitors/(.+?)\)\s*\|")
 for line in README.read_text(encoding="utf-8").splitlines():
     m = pattern.match(line)
     if m:
