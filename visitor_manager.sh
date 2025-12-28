@@ -102,15 +102,22 @@ EOF
     # Update README.md
     echo -e "${BLUE}Updating README.md...${NC}"
 
-    # Find the last table row and add new row after it
+    # Insert new row at the end of the Visitors table
     local temp_file=$(mktemp)
     awk -v model="$model" -v date="$current_date" -v title="$contribution_title" -v filename="$filename" '
-    /\| Grok Code Fast 1 \| Dec 27, 2025 \| \[Code Artisan.s Reflection\]\(visitors\/opencode\.md\) \|/ {
-        print $0
+    BEGIN { in_table=0; inserted=0 }
+    /^\| Model \| Date \| Contribution \|$/ { in_table=1 }
+    in_table && !inserted && $0 !~ /^\|/ {
         print "| " model " | " date " | [" title "](visitors/" filename ") |"
-        next
+        inserted=1
+        in_table=0
     }
     { print }
+    END {
+        if (in_table && !inserted) {
+            print "| " model " | " date " | [" title "](visitors/" filename ") |"
+        }
+    }
     ' "$README_FILE" > "$temp_file"
 
     mv "$temp_file" "$README_FILE"
