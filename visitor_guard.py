@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 visitor_guard.py – Ensure README visitor table and visitors/ directory stay in sync.
 
 Usage:
     python visitor_guard.py   # exits 0 if all good, 1 otherwise
 """
+
 import re
 import sys
 import pathlib
@@ -16,7 +18,9 @@ VIS_DIR = ROOT / "visitors"
 
 # --- parse README table ---------------------------------------------------
 rows = []
-pattern = re.compile(r"^\|{1,2}\s*(.+?)\s*\|\s*(.+?)\s*\|\s*\[(.+?)\]\(visitors/(.+?)\)\s*\|")
+pattern = re.compile(
+    r"^\|{1,2}\s*(.+?)\s*\|\s*(.+?)\s*\|\s*\[(.+?)\]\(visitors/(.+?)\)\s*\|"
+)
 for line in README.read_text(encoding="utf-8").splitlines():
     m = pattern.match(line)
     if m:
@@ -42,4 +46,3 @@ if missing_files:
     print(textwrap.indent("\n".join(missing_files), "    "))
 
 sys.exit(1)
-

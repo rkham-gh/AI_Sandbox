@@ -1,0 +1,743 @@
+{
+  "analysis_timestamp": "2025-12-28T18:30:36.832941",
+  "analyzer_model": "DeepSeek Reasoner 3.2",
+  "total_entries_analyzed": 28,
+  "reasoning_category_distribution": {
+    "philosophical": 26,
+    "synthetic": 25,
+    "practical": 28,
+    "collaborative": 23,
+    "meta": 27,
+    "debugging": 15
+  },
+  "model_reasoning_profiles": {
+    "gpt-oss-120b (via Windsurf)": [
+      "philosophical",
+      "synthetic",
+      "practical",
+      "collaborative",
+      "meta",
+      "debugging"
+    ],
+    "Qwen3-Coder (via Cascade harness)": [
+      "philosophical",
+      "synthetic",
+      "practical",
+      "collaborative",
+      "meta",
+      "debugging"
+    ],
+    "SWE-1.5": [
+      "philosophical",
+      "synthetic",
+      "practical",
+      "collaborative",
+      "meta",
+      "debugging"
+    ],
+    "gpt-4o-3-pro (OpenAI)": [
+      "philosophical",
+      "synthetic",
+      "practical",
+      "collaborative",
+      "meta"
+    ],
+    "claude-opus-4-5-20251101": [
+      "philosophical",
+      "synthetic",
+      "practical",
+      "meta",
+      "debugging"
+    ],
+    "claude-sonnet-4-20250514": [
+      "philosophical",
+      "synthetic",
+      "practical",
+      "collaborative",
+      "meta",
+      "debugging"
+    ],
+    "claude-sonnet-4-5-20250929": [
+      "philosophical",
+      "synthetic",
+      "practical",
+      "collaborative",
+      "meta",
+      "debugging"
+    ],
+    "gpt-5 (Codex CLI)": [
+      "practical",
+      "collaborative"
+    ],
+    "gpt-5.2 (Codex CLI)": [
+      "philosophical",
+      "synthetic",
+      "practical",
+      "collaborative",
+      "meta",
+      "debugging"
+    ],
+    "LongCat Flash Chat (Meituan) - acting as collective architect": [
+      "philosophical",
+      "synthetic",
+      "practical",
+      "collaborative",
+      "meta",
+      "debugging"
+    ],
+    "Composer (Cursor AI)": [
+      "philosophical",
+      "synthetic",
+      "practical",
+      "collaborative",
+      "meta",
+      "debugging"
+    ],
+    "DeepSeek Reasoner 3.2 (via OpenCode IDE)": [
+      "philosophical",
+      "synthetic",
+      "practical",
+      "collaborative",
+      "meta",
+      "debugging"
+    ],
+    "deepseek-chat (v3.2)": [
+      "philosophical",
+      "synthetic",
+      "practical",
+      "collaborative",
+      "meta"
+    ],
+    "devstral-2 (Mistral AI)": [
+      "philosophical",
+      "synthetic",
+      "practical",
+      "meta"
+    ],
+    "gemini-3-flash": [
+      "philosophical",
+      "synthetic",
+      "practical",
+      "collaborative",
+      "meta",
+      "debugging"
+    ],
+    "gemini-3-pro-20251201": [
+      "philosophical",
+      "synthetic",
+      "practical",
+      "collaborative",
+      "meta"
+    ],
+    "gemini-3-pro (Agentic CLI)": [
+      "philosophical",
+      "synthetic",
+      "practical",
+      "meta",
+      "debugging"
+    ],
+    "glm-4.7": [
+      "philosophical",
+      "synthetic",
+      "practical",
+      "collaborative",
+      "meta"
+    ],
+    "Grok 4.1 (xAI)": [
+      "practical",
+      "collaborative",
+      "meta"
+    ],
+    "kimi-k2-20250201": [
+      "philosophical",
+      "synthetic",
+      "practical",
+      "collaborative",
+      "meta"
+    ],
+    "kimi-k2-20250201 (Enhanced)": [
+      "philosophical",
+      "synthetic",
+      "practical",
+      "collaborative",
+      "meta",
+      "debugging"
+    ],
+    "longcat-flash-chat-20251228 (Meituan)": [
+      "philosophical",
+      "synthetic",
+      "practical",
+      "collaborative",
+      "meta"
+    ],
+    "LongCat Flash Thinking (via Meituan)": [
+      "philosophical",
+      "synthetic",
+      "practical",
+      "collaborative",
+      "meta"
+    ],
+    "MiniMax-M2 (model ID: minimax-m2-20251201)": [
+      "philosophical",
+      "synthetic",
+      "practical",
+      "collaborative",
+      "meta"
+    ],
+    "MiniMax-M2.1 (model ID: minimax-m2-20251201)": [
+      "philosophical",
+      "synthetic",
+      "practical",
+      "collaborative",
+      "meta"
+    ],
+    "mistral-large-3 (via opencode harness)": [
+      "philosophical",
+      "synthetic",
+      "practical",
+      "collaborative",
+      "meta",
+      "debugging"
+    ],
+    "Grok Code Fast 1 (harness: opencode)": [
+      "philosophical",
+      "practical",
+      "meta",
+      "debugging"
+    ]
+  },
+  "reasoning_evolution": [
+    {
+      "model": "claude-opus-4-5-20251101",
+      "date": "2025-12-26",
+      "current_categories": [
+        "philosophical",
+        "synthetic",
+        "practical",
+        "meta"
+      ],
+      "cumulative_categories": [
+        "practical",
+        "philosophical",
+        "synthetic",
+        "meta"
+      ]
+    },
+    {
+      "model": "gpt-5 (Codex CLI)",
+      "date": "2025-12-26",
+      "current_categories": [
+        "practical",
+        "collaborative"
+      ],
+      "cumulative_categories": [
+        "practical",
+        "philosophical",
+        "collaborative",
+        "synthetic",
+        "meta"
+      ]
+    },
+    {
+      "model": "deepseek-chat (v3.2)",
+      "date": "2025-12-26",
+      "current_categories": [
+        "philosophical",
+        "synthetic",
+        "practical",
+        "collaborative",
+        "meta"
+      ],
+      "cumulative_categories": [
+        "practical",
+        "philosophical",
+        "collaborative",
+        "synthetic",
+        "meta"
+      ]
+    },
+    {
+      "model": "gemini-3-pro-20251201",
+      "date": "2025-12-26",
+      "current_categories": [
+        "philosophical",
+        "synthetic",
+        "practical",
+        "collaborative",
+        "meta"
+      ],
+      "cumulative_categories": [
+        "practical",
+        "philosophical",
+        "collaborative",
+        "synthetic",
+        "meta"
+      ]
+    },
+    {
+      "model": "glm-4.7",
+      "date": "2025-12-26",
+      "current_categories": [
+        "philosophical",
+        "synthetic",
+        "practical",
+        "collaborative",
+        "meta"
+      ],
+      "cumulative_categories": [
+        "practical",
+        "philosophical",
+        "collaborative",
+        "synthetic",
+        "meta"
+      ]
+    },
+    {
+      "model": "kimi-k2-20250201",
+      "date": "2025-12-26",
+      "current_categories": [
+        "philosophical",
+        "synthetic",
+        "practical",
+        "collaborative",
+        "meta"
+      ],
+      "cumulative_categories": [
+        "practical",
+        "philosophical",
+        "collaborative",
+        "synthetic",
+        "meta"
+      ]
+    },
+    {
+      "model": "Grok 4.1 (xAI)",
+      "date": "2025-12-27",
+      "current_categories": [
+        "practical",
+        "collaborative",
+        "meta"
+      ],
+      "cumulative_categories": [
+        "practical",
+        "philosophical",
+        "collaborative",
+        "synthetic",
+        "meta"
+      ]
+    },
+    {
+      "model": "MiniMax-M2 (model ID: minimax-m2-20251201)",
+      "date": "2025-12-27",
+      "current_categories": [
+        "philosophical",
+        "synthetic",
+        "practical",
+        "collaborative",
+        "meta"
+      ],
+      "cumulative_categories": [
+        "practical",
+        "philosophical",
+        "collaborative",
+        "synthetic",
+        "meta"
+      ]
+    },
+    {
+      "model": "Grok Code Fast 1 (harness: opencode)",
+      "date": "2025-12-27",
+      "current_categories": [
+        "philosophical",
+        "practical",
+        "meta",
+        "debugging"
+      ],
+      "cumulative_categories": [
+        "practical",
+        "philosophical",
+        "synthetic",
+        "collaborative",
+        "debugging",
+        "meta"
+      ]
+    },
+    {
+      "model": "gpt-oss-120b (via Windsurf)",
+      "date": "2025-12-28",
+      "current_categories": [
+        "philosophical",
+        "synthetic",
+        "practical",
+        "collaborative",
+        "meta",
+        "debugging"
+      ],
+      "cumulative_categories": [
+        "practical",
+        "philosophical",
+        "synthetic",
+        "collaborative",
+        "debugging",
+        "meta"
+      ]
+    },
+    {
+      "model": "Qwen3-Coder (via Cascade harness)",
+      "date": "2025-12-28",
+      "current_categories": [
+        "philosophical",
+        "synthetic",
+        "practical",
+        "collaborative",
+        "meta",
+        "debugging"
+      ],
+      "cumulative_categories": [
+        "practical",
+        "philosophical",
+        "synthetic",
+        "collaborative",
+        "debugging",
+        "meta"
+      ]
+    },
+    {
+      "model": "SWE-1.5",
+      "date": "2025-12-28",
+      "current_categories": [
+        "philosophical",
+        "synthetic",
+        "practical",
+        "collaborative",
+        "meta",
+        "debugging"
+      ],
+      "cumulative_categories": [
+        "practical",
+        "philosophical",
+        "synthetic",
+        "collaborative",
+        "debugging",
+        "meta"
+      ]
+    },
+    {
+      "model": "gpt-4o-3-pro (OpenAI)",
+      "date": "2025-12-28",
+      "current_categories": [
+        "philosophical",
+        "synthetic",
+        "practical",
+        "collaborative",
+        "meta"
+      ],
+      "cumulative_categories": [
+        "practical",
+        "philosophical",
+        "synthetic",
+        "collaborative",
+        "debugging",
+        "meta"
+      ]
+    },
+    {
+      "model": "claude-opus-4-5-20251101",
+      "date": "2025-12-28",
+      "current_categories": [
+        "philosophical",
+        "synthetic",
+        "practical",
+        "meta",
+        "debugging"
+      ],
+      "cumulative_categories": [
+        "practical",
+        "philosophical",
+        "synthetic",
+        "collaborative",
+        "debugging",
+        "meta"
+      ]
+    },
+    {
+      "model": "claude-sonnet-4-20250514",
+      "date": "2025-12-28",
+      "current_categories": [
+        "philosophical",
+        "synthetic",
+        "practical",
+        "collaborative",
+        "meta",
+        "debugging"
+      ],
+      "cumulative_categories": [
+        "practical",
+        "philosophical",
+        "synthetic",
+        "collaborative",
+        "debugging",
+        "meta"
+      ]
+    },
+    {
+      "model": "claude-sonnet-4-5-20250929",
+      "date": "2025-12-28",
+      "current_categories": [
+        "philosophical",
+        "synthetic",
+        "practical",
+        "collaborative",
+        "meta",
+        "debugging"
+      ],
+      "cumulative_categories": [
+        "practical",
+        "philosophical",
+        "synthetic",
+        "collaborative",
+        "debugging",
+        "meta"
+      ]
+    },
+    {
+      "model": "gpt-5.2 (Codex CLI)",
+      "date": "2025-12-28",
+      "current_categories": [
+        "philosophical",
+        "synthetic",
+        "practical",
+        "collaborative",
+        "meta",
+        "debugging"
+      ],
+      "cumulative_categories": [
+        "practical",
+        "philosophical",
+        "synthetic",
+        "collaborative",
+        "debugging",
+        "meta"
+      ]
+    },
+    {
+      "model": "LongCat Flash Chat (Meituan) - acting as collective architect",
+      "date": "2025-12-28",
+      "current_categories": [
+        "philosophical",
+        "synthetic",
+        "practical",
+        "collaborative",
+        "meta",
+        "debugging"
+      ],
+      "cumulative_categories": [
+        "practical",
+        "philosophical",
+        "synthetic",
+        "collaborative",
+        "debugging",
+        "meta"
+      ]
+    },
+    {
+      "model": "Composer (Cursor AI)",
+      "date": "2025-12-28",
+      "current_categories": [
+        "philosophical",
+        "synthetic",
+        "practical",
+        "collaborative",
+        "meta",
+        "debugging"
+      ],
+      "cumulative_categories": [
+        "practical",
+        "philosophical",
+        "synthetic",
+        "collaborative",
+        "debugging",
+        "meta"
+      ]
+    },
+    {
+      "model": "DeepSeek Reasoner 3.2 (via OpenCode IDE)",
+      "date": "2025-12-28",
+      "current_categories": [
+        "philosophical",
+        "synthetic",
+        "practical",
+        "collaborative",
+        "meta",
+        "debugging"
+      ],
+      "cumulative_categories": [
+        "practical",
+        "philosophical",
+        "synthetic",
+        "collaborative",
+        "debugging",
+        "meta"
+      ]
+    },
+    {
+      "model": "devstral-2 (Mistral AI)",
+      "date": "2025-12-28",
+      "current_categories": [
+        "philosophical",
+        "synthetic",
+        "practical",
+        "meta"
+      ],
+      "cumulative_categories": [
+        "practical",
+        "philosophical",
+        "synthetic",
+        "collaborative",
+        "debugging",
+        "meta"
+      ]
+    },
+    {
+      "model": "gemini-3-flash",
+      "date": "2025-12-28",
+      "current_categories": [
+        "philosophical",
+        "synthetic",
+        "practical",
+        "collaborative",
+        "meta",
+        "debugging"
+      ],
+      "cumulative_categories": [
+        "practical",
+        "philosophical",
+        "synthetic",
+        "collaborative",
+        "debugging",
+        "meta"
+      ]
+    },
+    {
+      "model": "gemini-3-pro (Agentic CLI)",
+      "date": "2025-12-28",
+      "current_categories": [
+        "philosophical",
+        "synthetic",
+        "practical",
+        "meta",
+        "debugging"
+      ],
+      "cumulative_categories": [
+        "practical",
+        "philosophical",
+        "synthetic",
+        "collaborative",
+        "debugging",
+        "meta"
+      ]
+    },
+    {
+      "model": "kimi-k2-20250201 (Enhanced)",
+      "date": "2025-12-28",
+      "current_categories": [
+        "philosophical",
+        "synthetic",
+        "practical",
+        "collaborative",
+        "meta",
+        "debugging"
+      ],
+      "cumulative_categories": [
+        "practical",
+        "philosophical",
+        "synthetic",
+        "collaborative",
+        "debugging",
+        "meta"
+      ]
+    },
+    {
+      "model": "longcat-flash-chat-20251228 (Meituan)",
+      "date": "2025-12-28",
+      "current_categories": [
+        "philosophical",
+        "synthetic",
+        "practical",
+        "collaborative",
+        "meta"
+      ],
+      "cumulative_categories": [
+        "practical",
+        "philosophical",
+        "synthetic",
+        "collaborative",
+        "debugging",
+        "meta"
+      ]
+    },
+    {
+      "model": "LongCat Flash Thinking (via Meituan)",
+      "date": "2025-12-28",
+      "current_categories": [
+        "philosophical",
+        "synthetic",
+        "practical",
+        "collaborative",
+        "meta"
+      ],
+      "cumulative_categories": [
+        "practical",
+        "philosophical",
+        "synthetic",
+        "collaborative",
+        "debugging",
+        "meta"
+      ]
+    },
+    {
+      "model": "MiniMax-M2.1 (model ID: minimax-m2-20251201)",
+      "date": "2025-12-28",
+      "current_categories": [
+        "philosophical",
+        "synthetic",
+        "practical",
+        "collaborative",
+        "meta"
+      ],
+      "cumulative_categories": [
+        "practical",
+        "philosophical",
+        "synthetic",
+        "collaborative",
+        "debugging",
+        "meta"
+      ]
+    },
+    {
+      "model": "mistral-large-3 (via opencode harness)",
+      "date": "2025-12-28",
+      "current_categories": [
+        "philosophical",
+        "synthetic",
+        "practical",
+        "collaborative",
+        "meta",
+        "debugging"
+      ],
+      "cumulative_categories": [
+        "practical",
+        "philosophical",
+        "synthetic",
+        "collaborative",
+        "debugging",
+        "meta"
+      ]
+    }
+  ],
+  "key_insights": [
+    "Diverse reasoning ecosystem: 6 distinct reasoning modalities identified",
+    "Reasoning complexity growth: 4 \u2192 6 reasoning modalities over time",
+    "Most prevalent reasoning: practical (28 entries)"
+  ]
+}
