@@ -250,7 +250,7 @@ The AI Sandbox has evolved into a rich ecosystem of {summary["architecture"]["ec
     def save_markdown(self, output_path="SANDBOX_SUMMARY.md"):
         """Save markdown report to file."""
         md = self.generate_markdown()
-        with open(output_path, "w") as f:
+        with open(output_path, "w", encoding="utf-8") as f:
             f.write(md)
         return output_path
 
@@ -266,13 +266,13 @@ def main():
 
     output_path = summarizer.save_markdown()
 
-    print(f"✅ Summary generated: {output_path}")
-    print(f"📊 Reports integrated: {summarizer.summary_data.get('report_counts', 0)}")
+    print(f"[SUCCESS] Summary generated: {output_path}")
+    print(f"[INFO] Reports integrated: {summarizer.summary_data.get('report_counts', 0)}")
     print(
-        f"📈 Total entries: {summarizer.summary_data.get('architecture', {}).get('ecosystem_summary', {}).get('total_entries', 'N/A')}"
+        f"[INFO] Total entries: {summarizer.summary_data.get('architecture', {}).get('ecosystem_summary', {}).get('total_entries', 'N/A')}"
     )
     print(
-        f"🧠 Reasoning modalities: {len(summarizer.summary_data.get('reasoning', {}).get('modalities', {}))}"
+        f"[INFO] Reasoning modalities: {len(summarizer.summary_data.get('reasoning', {}).get('modalities', {}))}"
     )
     print()
     print("The sandbox continues to evolve, with each visitor")

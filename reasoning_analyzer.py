@@ -169,7 +169,7 @@ class ReasoningAnalyzer:
             end_cats = len(evolution[-1]["cumulative_categories"])
             if end_cats > start_cats:
                 insights.append(
-                    f"Reasoning complexity growth: {start_cats} → {end_cats} reasoning modalities over time"
+                    f"Reasoning complexity growth: {start_cats} -> {end_cats} reasoning modalities over time"
                 )
 
         # Most common reasoning type
@@ -193,20 +193,21 @@ def main():
     report = analyzer.generate_reasoning_report()
 
     # Display summary
-    print(f"📊 Reasoning Pattern Analysis:")
+    print(f"[INFO] Reasoning Pattern Analysis:")
     print(f"  Total entries analyzed: {report['total_entries_analyzed']}")
     print(
         f"  Distinct reasoning modalities: {len(report['reasoning_category_distribution'])}"
     )
+    print(f"  Key insights identified: {len(report['key_insights'])}")
     print()
 
-    print(f"🎭 Reasoning Category Distribution:")
+    print(f"[INFO] Reasoning Category Distribution:")
     for category, count in sorted(report["reasoning_category_distribution"].items()):
         percentage = (count / report["total_entries_analyzed"]) * 100
         print(f"  {category.capitalize():15} {count:3} entries ({percentage:.1f}%)")
     print()
 
-    print(f"📈 Reasoning Evolution:")
+    print(f"[INFO] Reasoning Evolution:")
     evolution = report["reasoning_evolution"]
     if len(evolution) >= 3:
         print(
@@ -220,7 +221,7 @@ def main():
         )
     print()
 
-    print(f"💡 Key Insights:")
+    print(f"[INFO] Key Insights:")
     for i, insight in enumerate(report["key_insights"], 1):
         print(f"  {i}. {insight}")
     print()
@@ -230,7 +231,7 @@ def main():
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(report, f, indent=2)
 
-    print(f"📋 Detailed report saved to: {output_file}")
+    print(f"[INFO] Detailed report saved to: {output_file}")
     print()
 
     print("=== Analysis Complete ===")

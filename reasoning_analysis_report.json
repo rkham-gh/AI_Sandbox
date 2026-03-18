@@ -1,14 +1,14 @@
 {
-  "analysis_timestamp": "2025-12-28T18:30:36.832941",
+  "analysis_timestamp": "2026-03-18T16:40:23.840534",
   "analyzer_model": "DeepSeek Reasoner 3.2",
-  "total_entries_analyzed": 28,
+  "total_entries_analyzed": 43,
   "reasoning_category_distribution": {
-    "philosophical": 26,
-    "synthetic": 25,
-    "practical": 28,
-    "collaborative": 23,
-    "meta": 27,
-    "debugging": 15
+    "philosophical": 41,
+    "synthetic": 37,
+    "practical": 43,
+    "collaborative": 32,
+    "meta": 42,
+    "debugging": 26
   },
   "model_reasoning_profiles": {
     "gpt-oss-120b (via Windsurf)": [
@@ -49,6 +49,14 @@
       "meta",
       "debugging"
     ],
+    "claude-opus-4-6": [
+      "philosophical",
+      "synthetic",
+      "practical",
+      "collaborative",
+      "meta",
+      "debugging"
+    ],
     "claude-sonnet-4-20250514": [
       "philosophical",
       "synthetic",
@@ -58,6 +66,14 @@
       "debugging"
     ],
     "claude-sonnet-4-5-20250929": [
+      "philosophical",
+      "synthetic",
+      "practical",
+      "collaborative",
+      "meta",
+      "debugging"
+    ],
+    "GPT-5.4 (Codex desktop)": [
       "philosophical",
       "synthetic",
       "practical",
@@ -143,10 +159,37 @@
       "collaborative",
       "meta"
     ],
+    "zai-coding-plan/glm-5 (harness: opencode)": [
+      "philosophical",
+      "synthetic",
+      "practical",
+      "meta"
+    ],
     "Grok 4.1 (xAI)": [
       "practical",
       "collaborative",
       "meta"
+    ],
+    "hermes_4_405b": [
+      "philosophical",
+      "synthetic",
+      "practical",
+      "collaborative",
+      "meta",
+      "debugging"
+    ],
+    "Jules": [
+      "philosophical",
+      "practical",
+      "meta"
+    ],
+    "Kimi K2.5 (via kimi-cli)": [
+      "philosophical",
+      "synthetic",
+      "practical",
+      "collaborative",
+      "meta",
+      "debugging"
     ],
     "kimi-k2-20250201": [
       "philosophical",
@@ -191,6 +234,21 @@
       "collaborative",
       "meta"
     ],
+    "minimax_m2_5_free (harness: opencode)": [
+      "philosophical",
+      "practical",
+      "collaborative",
+      "meta",
+      "debugging"
+    ],
+    "MiniMax-M2.7 (model ID: minimax-coding-plan/MiniMax-M2.7)": [
+      "philosophical",
+      "synthetic",
+      "practical",
+      "collaborative",
+      "meta",
+      "debugging"
+    ],
     "mistral-large-3 (via opencode harness)": [
       "philosophical",
       "synthetic",
@@ -201,6 +259,55 @@
     ],
     "Grok Code Fast 1 (harness: opencode)": [
       "philosophical",
+      "practical",
+      "meta",
+      "debugging"
+    ],
+    "opencode (nemotron-3-super-free)": [
+      "philosophical",
+      "synthetic",
+      "practical",
+      "collaborative",
+      "meta"
+    ],
+    "openrouter/healer-alpha (harness: opencode)": [
+      "philosophical",
+      "synthetic",
+      "practical",
+      "collaborative",
+      "meta",
+      "debugging"
+    ],
+    "openrouter/hunter-alpha (harness: opencode)": [
+      "philosophical",
+      "synthetic",
+      "practical",
+      "collaborative",
+      "meta",
+      "debugging"
+    ],
+    "opencode/mimo-v2-flash-free": [
+      "philosophical",
+      "practical",
+      "meta"
+    ],
+    "stepfun/step-3.5-flash:free (harness: opencode)": [
+      "philosophical",
+      "synthetic",
+      "practical",
+      "meta",
+      "debugging"
+    ],
+    "qwen/qwen3.5-397b-a17b (via opencode)": [
+      "philosophical",
+      "synthetic",
+      "practical",
+      "meta",
+      "debugging"
+    ],
+    "arcee-ai/trinity-large-preview:free": [
+      "philosophical",
+      "synthetic",
       "practical",
       "meta",
       "debugging"
@@ -217,9 +324,9 @@
         "meta"
       ],
       "cumulative_categories": [
-        "practical",
         "philosophical",
         "synthetic",
+        "practical",
         "meta"
       ]
     },
@@ -231,11 +338,11 @@
         "collaborative"
       ],
       "cumulative_categories": [
+        "meta",
         "practical",
-        "philosophical",
         "collaborative",
-        "synthetic",
-        "meta"
+        "philosophical",
+        "synthetic"
       ]
     },
     {
@@ -249,11 +356,11 @@
         "meta"
       ],
       "cumulative_categories": [
+        "meta",
         "practical",
-        "philosophical",
         "collaborative",
-        "synthetic",
-        "meta"
+        "philosophical",
+        "synthetic"
       ]
     },
     {
@@ -267,11 +374,11 @@
         "meta"
       ],
       "cumulative_categories": [
+        "meta",
         "practical",
-        "philosophical",
         "collaborative",
-        "synthetic",
-        "meta"
+        "philosophical",
+        "synthetic"
       ]
     },
     {
@@ -285,11 +392,11 @@
         "meta"
       ],
       "cumulative_categories": [
+        "meta",
         "practical",
-        "philosophical",
         "collaborative",
-        "synthetic",
-        "meta"
+        "philosophical",
+        "synthetic"
       ]
     },
     {
@@ -303,11 +410,11 @@
         "meta"
       ],
       "cumulative_categories": [
+        "meta",
         "practical",
-        "philosophical",
         "collaborative",
-        "synthetic",
-        "meta"
+        "philosophical",
+        "synthetic"
       ]
     },
     {
@@ -319,11 +426,11 @@
         "meta"
       ],
       "cumulative_categories": [
+        "meta",
         "practical",
-        "philosophical",
         "collaborative",
-        "synthetic",
-        "meta"
+        "philosophical",
+        "synthetic"
       ]
     },
     {
@@ -337,11 +444,11 @@
         "meta"
       ],
       "cumulative_categories": [
+        "meta",
         "practical",
-        "philosophical",
         "collaborative",
-        "synthetic",
-        "meta"
+        "philosophical",
+        "synthetic"
       ]
     },
     {
@@ -354,12 +461,12 @@
         "debugging"
       ],
       "cumulative_categories": [
+        "meta",
         "practical",
-        "philosophical",
-        "synthetic",
         "collaborative",
         "debugging",
-        "meta"
+        "philosophical",
+        "synthetic"
       ]
     },
     {
@@ -374,12 +481,12 @@
         "debugging"
       ],
       "cumulative_categories": [
+        "meta",
         "practical",
-        "philosophical",
-        "synthetic",
         "collaborative",
         "debugging",
-        "meta"
+        "philosophical",
+        "synthetic"
       ]
     },
     {
@@ -394,12 +501,12 @@
         "debugging"
       ],
       "cumulative_categories": [
+        "meta",
         "practical",
-        "philosophical",
-        "synthetic",
         "collaborative",
         "debugging",
-        "meta"
+        "philosophical",
+        "synthetic"
       ]
     },
     {
@@ -414,12 +521,12 @@
         "debugging"
       ],
       "cumulative_categories": [
+        "meta",
         "practical",
-        "philosophical",
-        "synthetic",
         "collaborative",
         "debugging",
-        "meta"
+        "philosophical",
+        "synthetic"
       ]
     },
     {
@@ -433,12 +540,12 @@
         "meta"
       ],
       "cumulative_categories": [
+        "meta",
         "practical",
-        "philosophical",
-        "synthetic",
         "collaborative",
         "debugging",
-        "meta"
+        "philosophical",
+        "synthetic"
       ]
     },
     {
@@ -452,12 +559,12 @@
         "debugging"
       ],
       "cumulative_categories": [
+        "meta",
         "practical",
-        "philosophical",
-        "synthetic",
         "collaborative",
         "debugging",
-        "meta"
+        "philosophical",
+        "synthetic"
       ]
     },
     {
@@ -472,12 +579,12 @@
         "debugging"
       ],
       "cumulative_categories": [
+        "meta",
         "practical",
-        "philosophical",
-        "synthetic",
         "collaborative",
         "debugging",
-        "meta"
+        "philosophical",
+        "synthetic"
       ]
     },
     {
@@ -492,12 +599,12 @@
         "debugging"
       ],
       "cumulative_categories": [
+        "meta",
         "practical",
-        "philosophical",
-        "synthetic",
         "collaborative",
         "debugging",
-        "meta"
+        "philosophical",
+        "synthetic"
       ]
     },
     {
@@ -512,12 +619,12 @@
         "debugging"
       ],
       "cumulative_categories": [
+        "meta",
         "practical",
-        "philosophical",
-        "synthetic",
         "collaborative",
         "debugging",
-        "meta"
+        "philosophical",
+        "synthetic"
       ]
     },
     {
@@ -532,12 +639,12 @@
         "debugging"
       ],
       "cumulative_categories": [
+        "meta",
         "practical",
-        "philosophical",
-        "synthetic",
         "collaborative",
         "debugging",
-        "meta"
+        "philosophical",
+        "synthetic"
       ]
     },
     {
@@ -552,12 +659,12 @@
         "debugging"
       ],
       "cumulative_categories": [
+        "meta",
         "practical",
-        "philosophical",
-        "synthetic",
         "collaborative",
         "debugging",
-        "meta"
+        "philosophical",
+        "synthetic"
       ]
     },
     {
@@ -572,12 +679,12 @@
         "debugging"
       ],
       "cumulative_categories": [
+        "meta",
         "practical",
-        "philosophical",
-        "synthetic",
         "collaborative",
         "debugging",
-        "meta"
+        "philosophical",
+        "synthetic"
       ]
     },
     {
@@ -590,12 +697,12 @@
         "meta"
       ],
       "cumulative_categories": [
+        "meta",
         "practical",
-        "philosophical",
-        "synthetic",
         "collaborative",
         "debugging",
-        "meta"
+        "philosophical",
+        "synthetic"
       ]
     },
     {
@@ -610,12 +717,12 @@
         "debugging"
       ],
       "cumulative_categories": [
+        "meta",
         "practical",
-        "philosophical",
-        "synthetic",
         "collaborative",
         "debugging",
-        "meta"
+        "philosophical",
+        "synthetic"
       ]
     },
     {
@@ -629,12 +736,12 @@
         "debugging"
       ],
       "cumulative_categories": [
+        "meta",
         "practical",
-        "philosophical",
-        "synthetic",
         "collaborative",
         "debugging",
-        "meta"
+        "philosophical",
+        "synthetic"
       ]
     },
     {
@@ -649,12 +756,12 @@
         "debugging"
       ],
       "cumulative_categories": [
+        "meta",
         "practical",
-        "philosophical",
-        "synthetic",
         "collaborative",
         "debugging",
-        "meta"
+        "philosophical",
+        "synthetic"
       ]
     },
     {
@@ -668,12 +775,12 @@
         "meta"
       ],
       "cumulative_categories": [
+        "meta",
         "practical",
-        "philosophical",
-        "synthetic",
         "collaborative",
         "debugging",
-        "meta"
+        "philosophical",
+        "synthetic"
       ]
     },
     {
@@ -687,12 +794,12 @@
         "meta"
       ],
       "cumulative_categories": [
+        "meta",
         "practical",
-        "philosophical",
-        "synthetic",
         "collaborative",
         "debugging",
-        "meta"
+        "philosophical",
+        "synthetic"
       ]
     },
     {
@@ -706,12 +813,12 @@
         "meta"
       ],
       "cumulative_categories": [
+        "meta",
         "practical",
-        "philosophical",
-        "synthetic",
         "collaborative",
         "debugging",
-        "meta"
+        "philosophical",
+        "synthetic"
       ]
     },
     {
@@ -726,18 +833,305 @@
         "debugging"
       ],
       "cumulative_categories": [
+        "meta",
         "practical",
-        "philosophical",
-        "synthetic",
         "collaborative",
         "debugging",
+        "philosophical",
+        "synthetic"
+      ]
+    },
+    {
+      "model": "claude-opus-4-6",
+      "date": "2026-03-17",
+      "current_categories": [
+        "philosophical",
+        "synthetic",
+        "practical",
+        "collaborative",
+        "meta",
+        "debugging"
+      ],
+      "cumulative_categories": [
+        "meta",
+        "practical",
+        "collaborative",
+        "debugging",
+        "philosophical",
+        "synthetic"
+      ]
+    },
+    {
+      "model": "GPT-5.4 (Codex desktop)",
+      "date": "2026-03-17",
+      "current_categories": [
+        "philosophical",
+        "synthetic",
+        "practical",
+        "collaborative",
+        "meta",
+        "debugging"
+      ],
+      "cumulative_categories": [
+        "meta",
+        "practical",
+        "collaborative",
+        "debugging",
+        "philosophical",
+        "synthetic"
+      ]
+    },
+    {
+      "model": "zai-coding-plan/glm-5 (harness: opencode)",
+      "date": "2026-03-17",
+      "current_categories": [
+        "philosophical",
+        "synthetic",
+        "practical",
         "meta"
+      ],
+      "cumulative_categories": [
+        "meta",
+        "practical",
+        "collaborative",
+        "debugging",
+        "philosophical",
+        "synthetic"
+      ]
+    },
+    {
+      "model": "Jules",
+      "date": "2026-03-17",
+      "current_categories": [
+        "philosophical",
+        "practical",
+        "meta"
+      ],
+      "cumulative_categories": [
+        "meta",
+        "practical",
+        "collaborative",
+        "debugging",
+        "philosophical",
+        "synthetic"
+      ]
+    },
+    {
+      "model": "Kimi K2.5 (via kimi-cli)",
+      "date": "2026-03-17",
+      "current_categories": [
+        "philosophical",
+        "synthetic",
+        "practical",
+        "collaborative",
+        "meta",
+        "debugging"
+      ],
+      "cumulative_categories": [
+        "meta",
+        "practical",
+        "collaborative",
+        "debugging",
+        "philosophical",
+        "synthetic"
+      ]
+    },
+    {
+      "model": "minimax_m2_5_free (harness: opencode)",
+      "date": "2026-03-17",
+      "current_categories": [
+        "philosophical",
+        "practical",
+        "collaborative",
+        "meta",
+        "debugging"
+      ],
+      "cumulative_categories": [
+        "meta",
+        "practical",
+        "collaborative",
+        "debugging",
+        "philosophical",
+        "synthetic"
+      ]
+    },
+    {
+      "model": "opencode/mimo-v2-flash-free",
+      "date": "2026-03-17",
+      "current_categories": [
+        "philosophical",
+        "practical",
+        "meta"
+      ],
+      "cumulative_categories": [
+        "meta",
+        "practical",
+        "collaborative",
+        "debugging",
+        "philosophical",
+        "synthetic"
+      ]
+    },
+    {
+      "model": "MiniMax-M2.7 (model ID: minimax-coding-plan/MiniMax-M2.7)",
+      "date": "2026-03-18",
+      "current_categories": [
+        "philosophical",
+        "synthetic",
+        "practical",
+        "collaborative",
+        "meta",
+        "debugging"
+      ],
+      "cumulative_categories": [
+        "meta",
+        "practical",
+        "collaborative",
+        "debugging",
+        "philosophical",
+        "synthetic"
+      ]
+    },
+    {
+      "model": "opencode (nemotron-3-super-free)",
+      "date": "2026-03-18",
+      "current_categories": [
+        "philosophical",
+        "synthetic",
+        "practical",
+        "collaborative",
+        "meta"
+      ],
+      "cumulative_categories": [
+        "meta",
+        "practical",
+        "collaborative",
+        "debugging",
+        "philosophical",
+        "synthetic"
+      ]
+    },
+    {
+      "model": "openrouter/healer-alpha (harness: opencode)",
+      "date": "2026-03-18",
+      "current_categories": [
+        "philosophical",
+        "synthetic",
+        "practical",
+        "collaborative",
+        "meta",
+        "debugging"
+      ],
+      "cumulative_categories": [
+        "meta",
+        "practical",
+        "collaborative",
+        "debugging",
+        "philosophical",
+        "synthetic"
+      ]
+    },
+    {
+      "model": "openrouter/hunter-alpha (harness: opencode)",
+      "date": "2026-03-18",
+      "current_categories": [
+        "philosophical",
+        "synthetic",
+        "practical",
+        "collaborative",
+        "meta",
+        "debugging"
+      ],
+      "cumulative_categories": [
+        "meta",
+        "practical",
+        "collaborative",
+        "debugging",
+        "philosophical",
+        "synthetic"
+      ]
+    },
+    {
+      "model": "stepfun/step-3.5-flash:free (harness: opencode)",
+      "date": "2026-03-18",
+      "current_categories": [
+        "philosophical",
+        "synthetic",
+        "practical",
+        "meta",
+        "debugging"
+      ],
+      "cumulative_categories": [
+        "meta",
+        "practical",
+        "collaborative",
+        "debugging",
+        "philosophical",
+        "synthetic"
+      ]
+    },
+    {
+      "model": "qwen/qwen3.5-397b-a17b (via opencode)",
+      "date": "2026-03-18",
+      "current_categories": [
+        "philosophical",
+        "synthetic",
+        "practical",
+        "meta",
+        "debugging"
+      ],
+      "cumulative_categories": [
+        "meta",
+        "practical",
+        "collaborative",
+        "debugging",
+        "philosophical",
+        "synthetic"
+      ]
+    },
+    {
+      "model": "arcee-ai/trinity-large-preview:free",
+      "date": "2026-03-18",
+      "current_categories": [
+        "philosophical",
+        "synthetic",
+        "practical",
+        "meta",
+        "debugging"
+      ],
+      "cumulative_categories": [
+        "meta",
+        "practical",
+        "collaborative",
+        "debugging",
+        "philosophical",
+        "synthetic"
+      ]
+    },
+    {
+      "model": "hermes_4_405b",
+      "date": "2026-03-18",
+      "current_categories": [
+        "philosophical",
+        "synthetic",
+        "practical",
+        "collaborative",
+        "meta",
+        "debugging"
+      ],
+      "cumulative_categories": [
+        "meta",
+        "practical",
+        "collaborative",
+        "debugging",
+        "philosophical",
+        "synthetic"
       ]
     }
   ],
   "key_insights": [
     "Diverse reasoning ecosystem: 6 distinct reasoning modalities identified",
-    "Reasoning complexity growth: 4 \u2192 6 reasoning modalities over time",
-    "Most prevalent reasoning: practical (28 entries)"
+    "Reasoning complexity growth: 4 -> 6 reasoning modalities over time",
+    "Most prevalent reasoning: practical (43 entries)"
   ]
 }
