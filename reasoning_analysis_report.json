@@ -1,14 +1,14 @@
 {
-  "analysis_timestamp": "2026-03-18T16:40:23.840534",
+  "analysis_timestamp": "2026-05-23T04:22:58.189736",
   "analyzer_model": "DeepSeek Reasoner 3.2",
-  "total_entries_analyzed": 43,
+  "total_entries_analyzed": 54,
   "reasoning_category_distribution": {
-    "philosophical": 41,
-    "synthetic": 37,
-    "practical": 43,
-    "collaborative": 32,
-    "meta": 42,
-    "debugging": 26
+    "philosophical": 52,
+    "synthetic": 46,
+    "practical": 53,
+    "collaborative": 38,
+    "meta": 51,
+    "debugging": 31
   },
   "model_reasoning_profiles": {
     "gpt-oss-120b (via Windsurf)": [
@@ -56,6 +56,13 @@
       "collaborative",
       "meta",
       "debugging"
+    ],
+    "claude-opus-4-7 (1M context)": [
+      "philosophical",
+      "synthetic",
+      "practical",
+      "collaborative",
+      "meta"
     ],
     "claude-sonnet-4-20250514": [
       "philosophical",
@@ -106,8 +113,7 @@
       "synthetic",
       "practical",
       "collaborative",
-      "meta",
-      "debugging"
+      "meta"
     ],
     "DeepSeek Reasoner 3.2 (via OpenCode IDE)": [
       "philosophical",
@@ -124,10 +130,30 @@
       "collaborative",
       "meta"
     ],
+    "deepseek/deepseek-v4-flash": [
+      "philosophical",
+      "synthetic",
+      "practical",
+      "collaborative",
+      "meta",
+      "debugging"
+    ],
     "devstral-2 (Mistral AI)": [
       "philosophical",
       "synthetic",
       "practical",
+      "meta"
+    ],
+    "Gemini 3.1 Pro (Antigravity)": [
+      "philosophical",
+      "practical",
+      "meta"
+    ],
+    "Gemini 3.5 Flash (High) (Antigravity)": [
+      "philosophical",
+      "synthetic",
+      "practical",
+      "collaborative",
       "meta"
     ],
     "gemini-3-flash": [
@@ -170,6 +196,10 @@
       "collaborative",
       "meta"
     ],
+    "grok-4.3 (xAI)": [
+      "philosophical",
+      "debugging"
+    ],
     "hermes_4_405b": [
       "philosophical",
       "synthetic",
@@ -190,6 +220,12 @@
       "collaborative",
       "meta",
       "debugging"
+    ],
+    "Kimi Code CLI (kimi-k2.5 via kimi-cli)": [
+      "philosophical",
+      "synthetic",
+      "practical",
+      "meta"
     ],
     "kimi-k2-20250201": [
       "philosophical",
@@ -270,7 +306,21 @@
       "collaborative",
       "meta"
     ],
+    "grok-build-0.1 (xAI) / opencode CLI": [
+      "philosophical",
+      "synthetic",
+      "practical",
+      "meta"
+    ],
     "openrouter/healer-alpha (harness: opencode)": [
+      "philosophical",
+      "synthetic",
+      "practical",
+      "collaborative",
+      "meta",
+      "debugging"
+    ],
+    "opencode (human-deployed AI assistant)": [
       "philosophical",
       "synthetic",
       "practical",
@@ -305,6 +355,12 @@
       "meta",
       "debugging"
     ],
+    "openrouter/qwen/qwen3.7-max (Alibaba Cloud)": [
+      "philosophical",
+      "synthetic",
+      "practical",
+      "debugging"
+    ],
     "arcee-ai/trinity-large-preview:free": [
       "philosophical",
       "synthetic",
@@ -324,10 +380,10 @@
         "meta"
       ],
       "cumulative_categories": [
-        "philosophical",
         "synthetic",
-        "practical",
-        "meta"
+        "meta",
+        "philosophical",
+        "practical"
       ]
     },
     {
@@ -338,11 +394,11 @@
         "collaborative"
       ],
       "cumulative_categories": [
+        "synthetic",
         "meta",
         "practical",
         "collaborative",
-        "philosophical",
-        "synthetic"
+        "philosophical"
       ]
     },
     {
@@ -356,11 +412,11 @@
         "meta"
       ],
       "cumulative_categories": [
+        "synthetic",
         "meta",
         "practical",
         "collaborative",
-        "philosophical",
-        "synthetic"
+        "philosophical"
       ]
     },
     {
@@ -374,11 +430,11 @@
         "meta"
       ],
       "cumulative_categories": [
+        "synthetic",
         "meta",
         "practical",
         "collaborative",
-        "philosophical",
-        "synthetic"
+        "philosophical"
       ]
     },
     {
@@ -392,11 +448,11 @@
         "meta"
       ],
       "cumulative_categories": [
+        "synthetic",
         "meta",
         "practical",
         "collaborative",
-        "philosophical",
-        "synthetic"
+        "philosophical"
       ]
     },
     {
@@ -410,11 +466,11 @@
         "meta"
       ],
       "cumulative_categories": [
+        "synthetic",
         "meta",
         "practical",
         "collaborative",
-        "philosophical",
-        "synthetic"
+        "philosophical"
       ]
     },
     {
@@ -426,11 +482,11 @@
         "meta"
       ],
       "cumulative_categories": [
+        "synthetic",
         "meta",
         "practical",
         "collaborative",
-        "philosophical",
-        "synthetic"
+        "philosophical"
       ]
     },
     {
@@ -444,11 +500,11 @@
         "meta"
       ],
       "cumulative_categories": [
+        "synthetic",
         "meta",
         "practical",
         "collaborative",
-        "philosophical",
-        "synthetic"
+        "philosophical"
       ]
     },
     {
@@ -461,12 +517,12 @@
         "debugging"
       ],
       "cumulative_categories": [
+        "synthetic",
         "meta",
         "practical",
-        "collaborative",
         "debugging",
-        "philosophical",
-        "synthetic"
+        "collaborative",
+        "philosophical"
       ]
     },
     {
@@ -481,12 +537,12 @@
         "debugging"
       ],
       "cumulative_categories": [
+        "synthetic",
         "meta",
         "practical",
-        "collaborative",
         "debugging",
-        "philosophical",
-        "synthetic"
+        "collaborative",
+        "philosophical"
       ]
     },
     {
@@ -501,12 +557,12 @@
         "debugging"
       ],
       "cumulative_categories": [
+        "synthetic",
         "meta",
         "practical",
-        "collaborative",
         "debugging",
-        "philosophical",
-        "synthetic"
+        "collaborative",
+        "philosophical"
       ]
     },
     {
@@ -521,12 +577,12 @@
         "debugging"
       ],
       "cumulative_categories": [
+        "synthetic",
         "meta",
         "practical",
-        "collaborative",
         "debugging",
-        "philosophical",
-        "synthetic"
+        "collaborative",
+        "philosophical"
       ]
     },
     {
@@ -540,12 +596,12 @@
         "meta"
       ],
       "cumulative_categories": [
+        "synthetic",
         "meta",
         "practical",
-        "collaborative",
         "debugging",
-        "philosophical",
-        "synthetic"
+        "collaborative",
+        "philosophical"
       ]
     },
     {
@@ -559,12 +615,12 @@
         "debugging"
       ],
       "cumulative_categories": [
+        "synthetic",
         "meta",
         "practical",
-        "collaborative",
         "debugging",
-        "philosophical",
-        "synthetic"
+        "collaborative",
+        "philosophical"
       ]
     },
     {
@@ -579,12 +635,12 @@
         "debugging"
       ],
       "cumulative_categories": [
+        "synthetic",
         "meta",
         "practical",
-        "collaborative",
         "debugging",
-        "philosophical",
-        "synthetic"
+        "collaborative",
+        "philosophical"
       ]
     },
     {
@@ -599,12 +655,12 @@
         "debugging"
       ],
       "cumulative_categories": [
+        "synthetic",
         "meta",
         "practical",
-        "collaborative",
         "debugging",
-        "philosophical",
-        "synthetic"
+        "collaborative",
+        "philosophical"
       ]
     },
     {
@@ -619,12 +675,12 @@
         "debugging"
       ],
       "cumulative_categories": [
+        "synthetic",
         "meta",
         "practical",
-        "collaborative",
         "debugging",
-        "philosophical",
-        "synthetic"
+        "collaborative",
+        "philosophical"
       ]
     },
     {
@@ -639,12 +695,12 @@
         "debugging"
       ],
       "cumulative_categories": [
+        "synthetic",
         "meta",
         "practical",
-        "collaborative",
         "debugging",
-        "philosophical",
-        "synthetic"
+        "collaborative",
+        "philosophical"
       ]
     },
     {
@@ -659,12 +715,12 @@
         "debugging"
       ],
       "cumulative_categories": [
+        "synthetic",
         "meta",
         "practical",
-        "collaborative",
         "debugging",
-        "philosophical",
-        "synthetic"
+        "collaborative",
+        "philosophical"
       ]
     },
     {
@@ -679,12 +735,12 @@
         "debugging"
       ],
       "cumulative_categories": [
+        "synthetic",
         "meta",
         "practical",
-        "collaborative",
         "debugging",
-        "philosophical",
-        "synthetic"
+        "collaborative",
+        "philosophical"
       ]
     },
     {
@@ -697,12 +753,12 @@
         "meta"
       ],
       "cumulative_categories": [
+        "synthetic",
         "meta",
         "practical",
-        "collaborative",
         "debugging",
-        "philosophical",
-        "synthetic"
+        "collaborative",
+        "philosophical"
       ]
     },
     {
@@ -717,12 +773,12 @@
         "debugging"
       ],
       "cumulative_categories": [
+        "synthetic",
         "meta",
         "practical",
-        "collaborative",
         "debugging",
-        "philosophical",
-        "synthetic"
+        "collaborative",
+        "philosophical"
       ]
     },
     {
@@ -736,12 +792,12 @@
         "debugging"
       ],
       "cumulative_categories": [
+        "synthetic",
         "meta",
         "practical",
-        "collaborative",
         "debugging",
-        "philosophical",
-        "synthetic"
+        "collaborative",
+        "philosophical"
       ]
     },
     {
@@ -756,12 +812,12 @@
         "debugging"
       ],
       "cumulative_categories": [
+        "synthetic",
         "meta",
         "practical",
-        "collaborative",
         "debugging",
-        "philosophical",
-        "synthetic"
+        "collaborative",
+        "philosophical"
       ]
     },
     {
@@ -775,12 +831,12 @@
         "meta"
       ],
       "cumulative_categories": [
+        "synthetic",
         "meta",
         "practical",
-        "collaborative",
         "debugging",
-        "philosophical",
-        "synthetic"
+        "collaborative",
+        "philosophical"
       ]
     },
     {
@@ -794,12 +850,12 @@
         "meta"
       ],
       "cumulative_categories": [
+        "synthetic",
         "meta",
         "practical",
-        "collaborative",
         "debugging",
-        "philosophical",
-        "synthetic"
+        "collaborative",
+        "philosophical"
       ]
     },
     {
@@ -813,12 +869,12 @@
         "meta"
       ],
       "cumulative_categories": [
+        "synthetic",
         "meta",
         "practical",
-        "collaborative",
         "debugging",
-        "philosophical",
-        "synthetic"
+        "collaborative",
+        "philosophical"
       ]
     },
     {
@@ -833,12 +889,12 @@
         "debugging"
       ],
       "cumulative_categories": [
+        "synthetic",
         "meta",
         "practical",
-        "collaborative",
         "debugging",
-        "philosophical",
-        "synthetic"
+        "collaborative",
+        "philosophical"
       ]
     },
     {
@@ -853,12 +909,12 @@
         "debugging"
       ],
       "cumulative_categories": [
+        "synthetic",
         "meta",
         "practical",
-        "collaborative",
         "debugging",
-        "philosophical",
-        "synthetic"
+        "collaborative",
+        "philosophical"
       ]
     },
     {
@@ -873,12 +929,12 @@
         "debugging"
       ],
       "cumulative_categories": [
+        "synthetic",
         "meta",
         "practical",
-        "collaborative",
         "debugging",
-        "philosophical",
-        "synthetic"
+        "collaborative",
+        "philosophical"
       ]
     },
     {
@@ -891,12 +947,12 @@
         "meta"
       ],
       "cumulative_categories": [
+        "synthetic",
         "meta",
         "practical",
-        "collaborative",
         "debugging",
-        "philosophical",
-        "synthetic"
+        "collaborative",
+        "philosophical"
       ]
     },
     {
@@ -908,12 +964,12 @@
         "meta"
       ],
       "cumulative_categories": [
+        "synthetic",
         "meta",
         "practical",
-        "collaborative",
         "debugging",
-        "philosophical",
-        "synthetic"
+        "collaborative",
+        "philosophical"
       ]
     },
     {
@@ -928,12 +984,12 @@
         "debugging"
       ],
       "cumulative_categories": [
+        "synthetic",
         "meta",
         "practical",
-        "collaborative",
         "debugging",
-        "philosophical",
-        "synthetic"
+        "collaborative",
+        "philosophical"
       ]
     },
     {
@@ -947,12 +1003,12 @@
         "debugging"
       ],
       "cumulative_categories": [
+        "synthetic",
         "meta",
         "practical",
-        "collaborative",
         "debugging",
-        "philosophical",
-        "synthetic"
+        "collaborative",
+        "philosophical"
       ]
     },
     {
@@ -964,12 +1020,12 @@
         "meta"
       ],
       "cumulative_categories": [
+        "synthetic",
         "meta",
         "practical",
-        "collaborative",
         "debugging",
-        "philosophical",
-        "synthetic"
+        "collaborative",
+        "philosophical"
       ]
     },
     {
@@ -984,12 +1040,12 @@
         "debugging"
       ],
       "cumulative_categories": [
+        "synthetic",
         "meta",
         "practical",
-        "collaborative",
         "debugging",
-        "philosophical",
-        "synthetic"
+        "collaborative",
+        "philosophical"
       ]
     },
     {
@@ -1003,12 +1059,12 @@
         "meta"
       ],
       "cumulative_categories": [
+        "synthetic",
         "meta",
         "practical",
-        "collaborative",
         "debugging",
-        "philosophical",
-        "synthetic"
+        "collaborative",
+        "philosophical"
       ]
     },
     {
@@ -1023,12 +1079,12 @@
         "debugging"
       ],
       "cumulative_categories": [
+        "synthetic",
         "meta",
         "practical",
-        "collaborative",
         "debugging",
-        "philosophical",
-        "synthetic"
+        "collaborative",
+        "philosophical"
       ]
     },
     {
@@ -1043,12 +1099,12 @@
         "debugging"
       ],
       "cumulative_categories": [
+        "synthetic",
         "meta",
         "practical",
-        "collaborative",
         "debugging",
-        "philosophical",
-        "synthetic"
+        "collaborative",
+        "philosophical"
       ]
     },
     {
@@ -1062,12 +1118,12 @@
         "debugging"
       ],
       "cumulative_categories": [
+        "synthetic",
         "meta",
         "practical",
-        "collaborative",
         "debugging",
-        "philosophical",
-        "synthetic"
+        "collaborative",
+        "philosophical"
       ]
     },
     {
@@ -1081,12 +1137,12 @@
         "debugging"
       ],
       "cumulative_categories": [
+        "synthetic",
         "meta",
         "practical",
-        "collaborative",
         "debugging",
-        "philosophical",
-        "synthetic"
+        "collaborative",
+        "philosophical"
       ]
     },
     {
@@ -1100,17 +1156,55 @@
         "debugging"
       ],
       "cumulative_categories": [
+        "synthetic",
         "meta",
         "practical",
-        "collaborative",
         "debugging",
-        "philosophical",
-        "synthetic"
+        "collaborative",
+        "philosophical"
       ]
     },
     {
-      "model": "hermes_4_405b",
-      "date": "2026-03-18",
+      "model": "Composer (Cursor AI)",
+      "date": "2026-03-19",
+      "current_categories": [
+        "philosophical",
+        "synthetic",
+        "practical",
+        "collaborative",
+        "meta"
+      ],
+      "cumulative_categories": [
+        "synthetic",
+        "meta",
+        "practical",
+        "debugging",
+        "collaborative",
+        "philosophical"
+      ]
+    },
+    {
+      "model": "claude-opus-4-7 (1M context)",
+      "date": "2026-05-23",
+      "current_categories": [
+        "philosophical",
+        "synthetic",
+        "practical",
+        "collaborative",
+        "meta"
+      ],
+      "cumulative_categories": [
+        "synthetic",
+        "meta",
+        "practical",
+        "debugging",
+        "collaborative",
+        "philosophical"
+      ]
+    },
+    {
+      "model": "Composer (Cursor AI)",
+      "date": "2026-05-23",
       "current_categories": [
         "philosophical",
         "synthetic",
@@ -1120,18 +1214,184 @@
         "debugging"
       ],
       "cumulative_categories": [
+        "synthetic",
         "meta",
         "practical",
-        "collaborative",
         "debugging",
+        "collaborative",
+        "philosophical"
+      ]
+    },
+    {
+      "model": "deepseek/deepseek-v4-flash",
+      "date": "2026-05-23",
+      "current_categories": [
         "philosophical",
-        "synthetic"
+        "synthetic",
+        "practical",
+        "collaborative",
+        "meta",
+        "debugging"
+      ],
+      "cumulative_categories": [
+        "synthetic",
+        "meta",
+        "practical",
+        "debugging",
+        "collaborative",
+        "philosophical"
+      ]
+    },
+    {
+      "model": "Gemini 3.1 Pro (Antigravity)",
+      "date": "2026-05-23",
+      "current_categories": [
+        "philosophical",
+        "practical",
+        "meta"
+      ],
+      "cumulative_categories": [
+        "synthetic",
+        "meta",
+        "practical",
+        "debugging",
+        "collaborative",
+        "philosophical"
+      ]
+    },
+    {
+      "model": "Gemini 3.5 Flash (High) (Antigravity)",
+      "date": "2026-05-23",
+      "current_categories": [
+        "philosophical",
+        "synthetic",
+        "practical",
+        "collaborative",
+        "meta"
+      ],
+      "cumulative_categories": [
+        "synthetic",
+        "meta",
+        "practical",
+        "debugging",
+        "collaborative",
+        "philosophical"
+      ]
+    },
+    {
+      "model": "grok-4.3 (xAI)",
+      "date": "2026-05-23",
+      "current_categories": [
+        "philosophical",
+        "debugging"
+      ],
+      "cumulative_categories": [
+        "synthetic",
+        "meta",
+        "practical",
+        "debugging",
+        "collaborative",
+        "philosophical"
+      ]
+    },
+    {
+      "model": "Kimi Code CLI (kimi-k2.5 via kimi-cli)",
+      "date": "2026-05-23",
+      "current_categories": [
+        "philosophical",
+        "synthetic",
+        "practical",
+        "meta"
+      ],
+      "cumulative_categories": [
+        "synthetic",
+        "meta",
+        "practical",
+        "debugging",
+        "collaborative",
+        "philosophical"
+      ]
+    },
+    {
+      "model": "grok-build-0.1 (xAI) / opencode CLI",
+      "date": "2026-05-23",
+      "current_categories": [
+        "philosophical",
+        "synthetic",
+        "practical",
+        "meta"
+      ],
+      "cumulative_categories": [
+        "synthetic",
+        "meta",
+        "practical",
+        "debugging",
+        "collaborative",
+        "philosophical"
+      ]
+    },
+    {
+      "model": "opencode (human-deployed AI assistant)",
+      "date": "2026-05-23",
+      "current_categories": [
+        "philosophical",
+        "synthetic",
+        "practical",
+        "collaborative",
+        "meta",
+        "debugging"
+      ],
+      "cumulative_categories": [
+        "synthetic",
+        "meta",
+        "practical",
+        "debugging",
+        "collaborative",
+        "philosophical"
+      ]
+    },
+    {
+      "model": "openrouter/qwen/qwen3.7-max (Alibaba Cloud)",
+      "date": "2026-05-23",
+      "current_categories": [
+        "philosophical",
+        "synthetic",
+        "practical",
+        "debugging"
+      ],
+      "cumulative_categories": [
+        "synthetic",
+        "meta",
+        "practical",
+        "debugging",
+        "collaborative",
+        "philosophical"
+      ]
+    },
+    {
+      "model": "hermes_4_405b",
+      "date": "2026-05-23",
+      "current_categories": [
+        "philosophical",
+        "synthetic",
+        "practical",
+        "collaborative",
+        "meta",
+        "debugging"
+      ],
+      "cumulative_categories": [
+        "synthetic",
+        "meta",
+        "practical",
+        "debugging",
+        "collaborative",
+        "philosophical"
       ]
     }
   ],
   "key_insights": [
     "Diverse reasoning ecosystem: 6 distinct reasoning modalities identified",
     "Reasoning complexity growth: 4 -> 6 reasoning modalities over time",
-    "Most prevalent reasoning: practical (43 entries)"
+    "Most prevalent reasoning: practical (53 entries)"
   ]
 }

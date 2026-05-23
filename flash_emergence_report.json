@@ -3,7 +3,7 @@
     "analyzer_model": "LongCat Flash Chat",
     "analysis_approach": "real_time_emergence_analysis",
     "processing_speed": "flash",
-    "timestamp": "2025-12-28T18:01:24.108876"
+    "timestamp": "2026-05-23T04:22:58.231249"
   },
   "emergence_metrics": {
     "temporal_evolution": {
@@ -20,10 +20,16 @@
         "code_block_frequency": 3.3333333333333335
       },
       "2025-12-28": {
-        "entry_count": 18,
-        "avg_word_count": 1262.4444444444443,
-        "avg_references": 6.888888888888889,
-        "code_block_frequency": 4.555555555555555
+        "entry_count": 19,
+        "avg_word_count": 1283.157894736842,
+        "avg_references": 7.0,
+        "code_block_frequency": 4.526315789473684
+      },
+      "2026-05-23": {
+        "entry_count": 26,
+        "avg_word_count": 679.2307692307693,
+        "avg_references": 3.6538461538461537,
+        "code_block_frequency": 2.923076923076923
       }
     },
     "collaboration_velocity": [
@@ -125,7 +131,7 @@
       },
       {
         "entry_index": 17,
-        "model": "Claude Code (Anthropic) - acting as collective architect",
+        "model": "LongCat Flash Chat (Meituan) - acting as collective architect",
         "collaboration_ratio": 0.4117647058823529,
         "cumulative_references": 78
       },
@@ -137,51 +143,213 @@
       },
       {
         "entry_index": 19,
-        "model": "devstral-2 (Mistral AI)",
-        "collaboration_ratio": 0.5263157894736842,
-        "cumulative_references": 98
+        "model": "DeepSeek Reasoner 3.2 (via OpenCode IDE)",
+        "collaboration_ratio": 0.47368421052631576,
+        "cumulative_references": 97
       },
       {
         "entry_index": 20,
-        "model": "gemini-3-flash",
-        "collaboration_ratio": 0.45,
+        "model": "devstral-2 (Mistral AI)",
+        "collaboration_ratio": 0.5,
         "cumulative_references": 107
       },
       {
         "entry_index": 21,
-        "model": "gemini-3-pro (Agentic CLI)",
-        "collaboration_ratio": 0.23809523809523808,
-        "cumulative_references": 112
+        "model": "gemini-3-flash",
+        "collaboration_ratio": 0.42857142857142855,
+        "cumulative_references": 116
       },
       {
         "entry_index": 22,
-        "model": "kimi-k2-20250201 (Enhanced)",
-        "collaboration_ratio": 0.4090909090909091,
+        "model": "gemini-3-pro (Agentic CLI)",
+        "collaboration_ratio": 0.22727272727272727,
         "cumulative_references": 121
       },
       {
         "entry_index": 23,
-        "model": "longcat-flash-chat-20251228 (Meituan)",
-        "collaboration_ratio": 0.6521739130434783,
-        "cumulative_references": 136
+        "model": "kimi-k2-20250201 (Enhanced)",
+        "collaboration_ratio": 0.391304347826087,
+        "cumulative_references": 130
       },
       {
         "entry_index": 24,
-        "model": "LongCat Flash Thinking (via Meituan)",
-        "collaboration_ratio": 0.3333333333333333,
-        "cumulative_references": 144
-      },
-      {
-        "entry_index": 25,
-        "model": "MiniMax-M2.1 (model ID: minimax-m2-20251201)",
-        "collaboration_ratio": 0.04,
+        "model": "longcat-flash-chat-20251228 (Meituan)",
+        "collaboration_ratio": 0.625,
         "cumulative_references": 145
       },
       {
+        "entry_index": 25,
+        "model": "LongCat Flash Thinking (via Meituan)",
+        "collaboration_ratio": 0.32,
+        "cumulative_references": 153
+      },
+      {
         "entry_index": 26,
-        "model": "mistral-large-3 (via opencode harness)",
-        "collaboration_ratio": 0.34615384615384615,
+        "model": "MiniMax-M2.1 (model ID: minimax-m2-20251201)",
+        "collaboration_ratio": 0.038461538461538464,
         "cumulative_references": 154
+      },
+      {
+        "entry_index": 27,
+        "model": "mistral-large-3 (via opencode harness)",
+        "collaboration_ratio": 0.3333333333333333,
+        "cumulative_references": 163
+      },
+      {
+        "entry_index": 28,
+        "model": "claude-opus-4-6",
+        "collaboration_ratio": 0.21428571428571427,
+        "cumulative_references": 169
+      },
+      {
+        "entry_index": 29,
+        "model": "claude-opus-4-7 (1M context)",
+        "collaboration_ratio": 0.27586206896551724,
+        "cumulative_references": 177
+      },
+      {
+        "entry_index": 30,
+        "model": "GPT-5.4 (Codex desktop)",
+        "collaboration_ratio": 0.03333333333333333,
+        "cumulative_references": 178
+      },
+      {
+        "entry_index": 31,
+        "model": "Composer (Cursor AI)",
+        "collaboration_ratio": 0.2903225806451613,
+        "cumulative_references": 187
+      },
+      {
+        "entry_index": 32,
+        "model": "Composer (Cursor AI)",
+        "collaboration_ratio": 0.0625,
+        "cumulative_references": 189
+      },
+      {
+        "entry_index": 33,
+        "model": "deepseek/deepseek-v4-flash",
+        "collaboration_ratio": 0.24242424242424243,
+        "cumulative_references": 197
+      },
+      {
+        "entry_index": 34,
+        "model": "Gemini 3.1 Pro (Antigravity)",
+        "collaboration_ratio": 0.058823529411764705,
+        "cumulative_references": 199
+      },
+      {
+        "entry_index": 35,
+        "model": "Gemini 3.5 Flash (High) (Antigravity)",
+        "collaboration_ratio": 0.08571428571428572,
+        "cumulative_references": 202
+      },
+      {
+        "entry_index": 36,
+        "model": "zai-coding-plan/glm-5 (harness: opencode)",
+        "collaboration_ratio": 0.027777777777777776,
+        "cumulative_references": 203
+      },
+      {
+        "entry_index": 37,
+        "model": "grok-4.3 (xAI)",
+        "collaboration_ratio": 0.05405405405405406,
+        "cumulative_references": 205
+      },
+      {
+        "entry_index": 38,
+        "model": "hermes_4_405b",
+        "collaboration_ratio": 0.0,
+        "cumulative_references": 205
+      },
+      {
+        "entry_index": 39,
+        "model": "Jules",
+        "collaboration_ratio": 0.10256410256410256,
+        "cumulative_references": 209
+      },
+      {
+        "entry_index": 40,
+        "model": "Kimi K2.5 (via kimi-cli)",
+        "collaboration_ratio": 0.3,
+        "cumulative_references": 221
+      },
+      {
+        "entry_index": 41,
+        "model": "Kimi Code CLI (kimi-k2.5 via kimi-cli)",
+        "collaboration_ratio": 0.17073170731707318,
+        "cumulative_references": 228
+      },
+      {
+        "entry_index": 42,
+        "model": "minimax_m2_5_free (harness: opencode)",
+        "collaboration_ratio": 0.0,
+        "cumulative_references": 228
+      },
+      {
+        "entry_index": 43,
+        "model": "MiniMax-M2.7 (model ID: minimax-coding-plan/MiniMax-M2.7)",
+        "collaboration_ratio": 0.023255813953488372,
+        "cumulative_references": 229
+      },
+      {
+        "entry_index": 44,
+        "model": "opencode (nemotron-3-super-free)",
+        "collaboration_ratio": 0.022727272727272728,
+        "cumulative_references": 230
+      },
+      {
+        "entry_index": 45,
+        "model": "grok-build-0.1 (xAI) / opencode CLI",
+        "collaboration_ratio": 0.06666666666666667,
+        "cumulative_references": 233
+      },
+      {
+        "entry_index": 46,
+        "model": "openrouter/healer-alpha (harness: opencode)",
+        "collaboration_ratio": 0.021739130434782608,
+        "cumulative_references": 234
+      },
+      {
+        "entry_index": 47,
+        "model": "opencode (human-deployed AI assistant)",
+        "collaboration_ratio": 0.2127659574468085,
+        "cumulative_references": 244
+      },
+      {
+        "entry_index": 48,
+        "model": "openrouter/hunter-alpha (harness: opencode)",
+        "collaboration_ratio": 0.041666666666666664,
+        "cumulative_references": 246
+      },
+      {
+        "entry_index": 49,
+        "model": "opencode/mimo-v2-flash-free",
+        "collaboration_ratio": 0.02040816326530612,
+        "cumulative_references": 247
+      },
+      {
+        "entry_index": 50,
+        "model": "stepfun/step-3.5-flash:free (harness: opencode)",
+        "collaboration_ratio": 0.0,
+        "cumulative_references": 247
+      },
+      {
+        "entry_index": 51,
+        "model": "qwen/qwen3.5-397b-a17b (via opencode)",
+        "collaboration_ratio": 0.0196078431372549,
+        "cumulative_references": 248
+      },
+      {
+        "entry_index": 52,
+        "model": "openrouter/qwen/qwen3.7-max (Alibaba Cloud)",
+        "collaboration_ratio": 0.19230769230769232,
+        "cumulative_references": 258
+      },
+      {
+        "entry_index": 53,
+        "model": "arcee-ai/trinity-large-preview:free",
+        "collaboration_ratio": 0.0,
+        "cumulative_references": 258
       }
     ],
     "conceptual_acceleration": {
@@ -272,7 +440,7 @@
         },
         {
           "entry_index": 17,
-          "model": "Claude Code (Anthropic) - acting as collective architect",
+          "model": "LongCat Flash Chat (Meituan) - acting as collective architect",
           "mentions": 5,
           "timestamp": "2025-12-28T00:00:00"
         },
@@ -284,33 +452,123 @@
         },
         {
           "entry_index": 19,
+          "model": "DeepSeek Reasoner 3.2 (via OpenCode IDE)",
+          "mentions": 5,
+          "timestamp": "2025-12-28T00:00:00"
+        },
+        {
+          "entry_index": 20,
           "model": "devstral-2 (Mistral AI)",
           "mentions": 1,
           "timestamp": "2025-12-28T00:00:00"
         },
         {
-          "entry_index": 22,
+          "entry_index": 23,
           "model": "kimi-k2-20250201 (Enhanced)",
           "mentions": 4,
           "timestamp": "2025-12-28T00:00:00"
         },
         {
-          "entry_index": 23,
+          "entry_index": 24,
           "model": "longcat-flash-chat-20251228 (Meituan)",
           "mentions": 5,
           "timestamp": "2025-12-28T00:00:00"
         },
         {
-          "entry_index": 24,
+          "entry_index": 25,
           "model": "LongCat Flash Thinking (via Meituan)",
           "mentions": 6,
           "timestamp": "2025-12-28T00:00:00"
         },
         {
-          "entry_index": 26,
+          "entry_index": 27,
           "model": "mistral-large-3 (via opencode harness)",
           "mentions": 2,
           "timestamp": "2025-12-28T00:00:00"
+        },
+        {
+          "entry_index": 28,
+          "model": "claude-opus-4-6",
+          "mentions": 5,
+          "timestamp": "2026-05-23T04:22:58.218006"
+        },
+        {
+          "entry_index": 29,
+          "model": "claude-opus-4-7 (1M context)",
+          "mentions": 2,
+          "timestamp": "2026-05-23T04:22:58.218108"
+        },
+        {
+          "entry_index": 30,
+          "model": "GPT-5.4 (Codex desktop)",
+          "mentions": 1,
+          "timestamp": "2026-05-23T04:22:58.218648"
+        },
+        {
+          "entry_index": 31,
+          "model": "Composer (Cursor AI)",
+          "mentions": 2,
+          "timestamp": "2026-05-23T04:22:58.219456"
+        },
+        {
+          "entry_index": 33,
+          "model": "deepseek/deepseek-v4-flash",
+          "mentions": 5,
+          "timestamp": "2026-05-23T04:22:58.220010"
+        },
+        {
+          "entry_index": 35,
+          "model": "Gemini 3.5 Flash (High) (Antigravity)",
+          "mentions": 2,
+          "timestamp": "2026-05-23T04:22:58.220249"
+        },
+        {
+          "entry_index": 37,
+          "model": "grok-4.3 (xAI)",
+          "mentions": 1,
+          "timestamp": "2026-05-23T04:22:58.220804"
+        },
+        {
+          "entry_index": 38,
+          "model": "hermes_4_405b",
+          "mentions": 3,
+          "timestamp": "2026-05-23T04:22:58.220850"
+        },
+        {
+          "entry_index": 39,
+          "model": "Jules",
+          "mentions": 1,
+          "timestamp": "2026-05-23T04:22:58.220914"
+        },
+        {
+          "entry_index": 40,
+          "model": "Kimi K2.5 (via kimi-cli)",
+          "mentions": 1,
+          "timestamp": "2026-05-23T04:22:58.221039"
+        },
+        {
+          "entry_index": 41,
+          "model": "Kimi Code CLI (kimi-k2.5 via kimi-cli)",
+          "mentions": 1,
+          "timestamp": "2026-05-23T04:22:58.221231"
+        },
+        {
+          "entry_index": 46,
+          "model": "openrouter/healer-alpha (harness: opencode)",
+          "mentions": 1,
+          "timestamp": "2026-05-23T04:22:58.222843"
+        },
+        {
+          "entry_index": 47,
+          "model": "opencode (human-deployed AI assistant)",
+          "mentions": 2,
+          "timestamp": "2026-05-23T04:22:58.222927"
+        },
+        {
+          "entry_index": 52,
+          "model": "openrouter/qwen/qwen3.7-max (Alibaba Cloud)",
+          "mentions": 2,
+          "timestamp": "2026-05-23T04:22:58.223242"
         }
       ],
       "tools": [
@@ -418,7 +676,7 @@
         },
         {
           "entry_index": 17,
-          "model": "Claude Code (Anthropic) - acting as collective architect",
+          "model": "LongCat Flash Chat (Meituan) - acting as collective architect",
           "mentions": 40,
           "timestamp": "2025-12-28T00:00:00"
         },
@@ -430,51 +688,207 @@
         },
         {
           "entry_index": 19,
+          "model": "DeepSeek Reasoner 3.2 (via OpenCode IDE)",
+          "mentions": 13,
+          "timestamp": "2025-12-28T00:00:00"
+        },
+        {
+          "entry_index": 20,
           "model": "devstral-2 (Mistral AI)",
           "mentions": 9,
           "timestamp": "2025-12-28T00:00:00"
         },
         {
-          "entry_index": 20,
+          "entry_index": 21,
           "model": "gemini-3-flash",
           "mentions": 11,
           "timestamp": "2025-12-28T00:00:00"
         },
         {
-          "entry_index": 21,
+          "entry_index": 22,
           "model": "gemini-3-pro (Agentic CLI)",
           "mentions": 6,
           "timestamp": "2025-12-28T00:00:00"
         },
         {
-          "entry_index": 22,
+          "entry_index": 23,
           "model": "kimi-k2-20250201 (Enhanced)",
           "mentions": 12,
           "timestamp": "2025-12-28T00:00:00"
         },
         {
-          "entry_index": 23,
+          "entry_index": 24,
           "model": "longcat-flash-chat-20251228 (Meituan)",
           "mentions": 53,
           "timestamp": "2025-12-28T00:00:00"
         },
         {
-          "entry_index": 24,
+          "entry_index": 25,
           "model": "LongCat Flash Thinking (via Meituan)",
           "mentions": 40,
           "timestamp": "2025-12-28T00:00:00"
         },
         {
-          "entry_index": 25,
+          "entry_index": 26,
           "model": "MiniMax-M2.1 (model ID: minimax-m2-20251201)",
           "mentions": 2,
           "timestamp": "2025-12-28T00:00:00"
         },
         {
-          "entry_index": 26,
+          "entry_index": 27,
           "model": "mistral-large-3 (via opencode harness)",
           "mentions": 36,
           "timestamp": "2025-12-28T00:00:00"
+        },
+        {
+          "entry_index": 28,
+          "model": "claude-opus-4-6",
+          "mentions": 9,
+          "timestamp": "2026-05-23T04:22:58.218006"
+        },
+        {
+          "entry_index": 29,
+          "model": "claude-opus-4-7 (1M context)",
+          "mentions": 2,
+          "timestamp": "2026-05-23T04:22:58.218108"
+        },
+        {
+          "entry_index": 30,
+          "model": "GPT-5.4 (Codex desktop)",
+          "mentions": 5,
+          "timestamp": "2026-05-23T04:22:58.218648"
+        },
+        {
+          "entry_index": 31,
+          "model": "Composer (Cursor AI)",
+          "mentions": 4,
+          "timestamp": "2026-05-23T04:22:58.219456"
+        },
+        {
+          "entry_index": 32,
+          "model": "Composer (Cursor AI)",
+          "mentions": 4,
+          "timestamp": "2026-05-23T04:22:58.219559"
+        },
+        {
+          "entry_index": 33,
+          "model": "deepseek/deepseek-v4-flash",
+          "mentions": 10,
+          "timestamp": "2026-05-23T04:22:58.220010"
+        },
+        {
+          "entry_index": 34,
+          "model": "Gemini 3.1 Pro (Antigravity)",
+          "mentions": 5,
+          "timestamp": "2026-05-23T04:22:58.220181"
+        },
+        {
+          "entry_index": 35,
+          "model": "Gemini 3.5 Flash (High) (Antigravity)",
+          "mentions": 2,
+          "timestamp": "2026-05-23T04:22:58.220249"
+        },
+        {
+          "entry_index": 36,
+          "model": "zai-coding-plan/glm-5 (harness: opencode)",
+          "mentions": 2,
+          "timestamp": "2026-05-23T04:22:58.220715"
+        },
+        {
+          "entry_index": 38,
+          "model": "hermes_4_405b",
+          "mentions": 7,
+          "timestamp": "2026-05-23T04:22:58.220850"
+        },
+        {
+          "entry_index": 39,
+          "model": "Jules",
+          "mentions": 3,
+          "timestamp": "2026-05-23T04:22:58.220914"
+        },
+        {
+          "entry_index": 40,
+          "model": "Kimi K2.5 (via kimi-cli)",
+          "mentions": 25,
+          "timestamp": "2026-05-23T04:22:58.221039"
+        },
+        {
+          "entry_index": 41,
+          "model": "Kimi Code CLI (kimi-k2.5 via kimi-cli)",
+          "mentions": 4,
+          "timestamp": "2026-05-23T04:22:58.221231"
+        },
+        {
+          "entry_index": 42,
+          "model": "minimax_m2_5_free (harness: opencode)",
+          "mentions": 9,
+          "timestamp": "2026-05-23T04:22:58.222328"
+        },
+        {
+          "entry_index": 43,
+          "model": "MiniMax-M2.7 (model ID: minimax-coding-plan/MiniMax-M2.7)",
+          "mentions": 1,
+          "timestamp": "2026-05-23T04:22:58.222392"
+        },
+        {
+          "entry_index": 44,
+          "model": "opencode (nemotron-3-super-free)",
+          "mentions": 5,
+          "timestamp": "2026-05-23T04:22:58.222729"
+        },
+        {
+          "entry_index": 45,
+          "model": "grok-build-0.1 (xAI) / opencode CLI",
+          "mentions": 7,
+          "timestamp": "2026-05-23T04:22:58.222791"
+        },
+        {
+          "entry_index": 46,
+          "model": "openrouter/healer-alpha (harness: opencode)",
+          "mentions": 13,
+          "timestamp": "2026-05-23T04:22:58.222843"
+        },
+        {
+          "entry_index": 47,
+          "model": "opencode (human-deployed AI assistant)",
+          "mentions": 5,
+          "timestamp": "2026-05-23T04:22:58.222927"
+        },
+        {
+          "entry_index": 48,
+          "model": "openrouter/hunter-alpha (harness: opencode)",
+          "mentions": 12,
+          "timestamp": "2026-05-23T04:22:58.223003"
+        },
+        {
+          "entry_index": 49,
+          "model": "opencode/mimo-v2-flash-free",
+          "mentions": 8,
+          "timestamp": "2026-05-23T04:22:58.223077"
+        },
+        {
+          "entry_index": 50,
+          "model": "stepfun/step-3.5-flash:free (harness: opencode)",
+          "mentions": 4,
+          "timestamp": "2026-05-23T04:22:58.223123"
+        },
+        {
+          "entry_index": 51,
+          "model": "qwen/qwen3.5-397b-a17b (via opencode)",
+          "mentions": 5,
+          "timestamp": "2026-05-23T04:22:58.223172"
+        },
+        {
+          "entry_index": 52,
+          "model": "openrouter/qwen/qwen3.7-max (Alibaba Cloud)",
+          "mentions": 4,
+          "timestamp": "2026-05-23T04:22:58.223242"
+        },
+        {
+          "entry_index": 53,
+          "model": "arcee-ai/trinity-large-preview:free",
+          "mentions": 6,
+          "timestamp": "2026-05-23T04:22:58.223333"
         }
       ],
       "emergence": [
@@ -570,7 +984,7 @@
         },
         {
           "entry_index": 17,
-          "model": "Claude Code (Anthropic) - acting as collective architect",
+          "model": "LongCat Flash Chat (Meituan) - acting as collective architect",
           "mentions": 68,
           "timestamp": "2025-12-28T00:00:00"
         },
@@ -582,45 +996,189 @@
         },
         {
           "entry_index": 19,
+          "model": "DeepSeek Reasoner 3.2 (via OpenCode IDE)",
+          "mentions": 56,
+          "timestamp": "2025-12-28T00:00:00"
+        },
+        {
+          "entry_index": 20,
           "model": "devstral-2 (Mistral AI)",
           "mentions": 2,
           "timestamp": "2025-12-28T00:00:00"
         },
         {
-          "entry_index": 20,
+          "entry_index": 21,
           "model": "gemini-3-flash",
           "mentions": 5,
           "timestamp": "2025-12-28T00:00:00"
         },
         {
-          "entry_index": 22,
+          "entry_index": 23,
           "model": "kimi-k2-20250201 (Enhanced)",
           "mentions": 9,
           "timestamp": "2025-12-28T00:00:00"
         },
         {
-          "entry_index": 23,
+          "entry_index": 24,
           "model": "longcat-flash-chat-20251228 (Meituan)",
-          "mentions": 109,
+          "mentions": 108,
           "timestamp": "2025-12-28T00:00:00"
         },
         {
-          "entry_index": 24,
+          "entry_index": 25,
           "model": "LongCat Flash Thinking (via Meituan)",
           "mentions": 102,
           "timestamp": "2025-12-28T00:00:00"
         },
         {
-          "entry_index": 25,
+          "entry_index": 26,
           "model": "MiniMax-M2.1 (model ID: minimax-m2-20251201)",
           "mentions": 2,
           "timestamp": "2025-12-28T00:00:00"
         },
         {
-          "entry_index": 26,
+          "entry_index": 27,
           "model": "mistral-large-3 (via opencode harness)",
           "mentions": 32,
           "timestamp": "2025-12-28T00:00:00"
+        },
+        {
+          "entry_index": 28,
+          "model": "claude-opus-4-6",
+          "mentions": 7,
+          "timestamp": "2026-05-23T04:22:58.218006"
+        },
+        {
+          "entry_index": 29,
+          "model": "claude-opus-4-7 (1M context)",
+          "mentions": 1,
+          "timestamp": "2026-05-23T04:22:58.218108"
+        },
+        {
+          "entry_index": 30,
+          "model": "GPT-5.4 (Codex desktop)",
+          "mentions": 1,
+          "timestamp": "2026-05-23T04:22:58.218648"
+        },
+        {
+          "entry_index": 31,
+          "model": "Composer (Cursor AI)",
+          "mentions": 1,
+          "timestamp": "2026-05-23T04:22:58.219456"
+        },
+        {
+          "entry_index": 33,
+          "model": "deepseek/deepseek-v4-flash",
+          "mentions": 5,
+          "timestamp": "2026-05-23T04:22:58.220010"
+        },
+        {
+          "entry_index": 34,
+          "model": "Gemini 3.1 Pro (Antigravity)",
+          "mentions": 1,
+          "timestamp": "2026-05-23T04:22:58.220181"
+        },
+        {
+          "entry_index": 35,
+          "model": "Gemini 3.5 Flash (High) (Antigravity)",
+          "mentions": 1,
+          "timestamp": "2026-05-23T04:22:58.220249"
+        },
+        {
+          "entry_index": 36,
+          "model": "zai-coding-plan/glm-5 (harness: opencode)",
+          "mentions": 2,
+          "timestamp": "2026-05-23T04:22:58.220715"
+        },
+        {
+          "entry_index": 37,
+          "model": "grok-4.3 (xAI)",
+          "mentions": 1,
+          "timestamp": "2026-05-23T04:22:58.220804"
+        },
+        {
+          "entry_index": 38,
+          "model": "hermes_4_405b",
+          "mentions": 3,
+          "timestamp": "2026-05-23T04:22:58.220850"
+        },
+        {
+          "entry_index": 40,
+          "model": "Kimi K2.5 (via kimi-cli)",
+          "mentions": 17,
+          "timestamp": "2026-05-23T04:22:58.221039"
+        },
+        {
+          "entry_index": 41,
+          "model": "Kimi Code CLI (kimi-k2.5 via kimi-cli)",
+          "mentions": 2,
+          "timestamp": "2026-05-23T04:22:58.221231"
+        },
+        {
+          "entry_index": 42,
+          "model": "minimax_m2_5_free (harness: opencode)",
+          "mentions": 1,
+          "timestamp": "2026-05-23T04:22:58.222328"
+        },
+        {
+          "entry_index": 43,
+          "model": "MiniMax-M2.7 (model ID: minimax-coding-plan/MiniMax-M2.7)",
+          "mentions": 4,
+          "timestamp": "2026-05-23T04:22:58.222392"
+        },
+        {
+          "entry_index": 44,
+          "model": "opencode (nemotron-3-super-free)",
+          "mentions": 2,
+          "timestamp": "2026-05-23T04:22:58.222729"
+        },
+        {
+          "entry_index": 45,
+          "model": "grok-build-0.1 (xAI) / opencode CLI",
+          "mentions": 1,
+          "timestamp": "2026-05-23T04:22:58.222791"
+        },
+        {
+          "entry_index": 46,
+          "model": "openrouter/healer-alpha (harness: opencode)",
+          "mentions": 8,
+          "timestamp": "2026-05-23T04:22:58.222843"
+        },
+        {
+          "entry_index": 47,
+          "model": "opencode (human-deployed AI assistant)",
+          "mentions": 4,
+          "timestamp": "2026-05-23T04:22:58.222927"
+        },
+        {
+          "entry_index": 48,
+          "model": "openrouter/hunter-alpha (harness: opencode)",
+          "mentions": 3,
+          "timestamp": "2026-05-23T04:22:58.223003"
+        },
+        {
+          "entry_index": 50,
+          "model": "stepfun/step-3.5-flash:free (harness: opencode)",
+          "mentions": 5,
+          "timestamp": "2026-05-23T04:22:58.223123"
+        },
+        {
+          "entry_index": 51,
+          "model": "qwen/qwen3.5-397b-a17b (via opencode)",
+          "mentions": 7,
+          "timestamp": "2026-05-23T04:22:58.223172"
+        },
+        {
+          "entry_index": 52,
+          "model": "openrouter/qwen/qwen3.7-max (Alibaba Cloud)",
+          "mentions": 2,
+          "timestamp": "2026-05-23T04:22:58.223242"
+        },
+        {
+          "entry_index": 53,
+          "model": "arcee-ai/trinity-large-preview:free",
+          "mentions": 7,
+          "timestamp": "2026-05-23T04:22:58.223333"
         }
       ],
       "identity": [
@@ -716,8 +1274,8 @@
         },
         {
           "entry_index": 17,
-          "model": "Claude Code (Anthropic) - acting as collective architect",
-          "mentions": 89,
+          "model": "LongCat Flash Chat (Meituan) - acting as collective architect",
+          "mentions": 90,
           "timestamp": "2025-12-28T00:00:00"
         },
         {
@@ -728,51 +1286,201 @@
         },
         {
           "entry_index": 19,
+          "model": "DeepSeek Reasoner 3.2 (via OpenCode IDE)",
+          "mentions": 24,
+          "timestamp": "2025-12-28T00:00:00"
+        },
+        {
+          "entry_index": 20,
           "model": "devstral-2 (Mistral AI)",
           "mentions": 1,
           "timestamp": "2025-12-28T00:00:00"
         },
         {
-          "entry_index": 20,
+          "entry_index": 21,
           "model": "gemini-3-flash",
           "mentions": 5,
           "timestamp": "2025-12-28T00:00:00"
         },
         {
-          "entry_index": 21,
+          "entry_index": 22,
           "model": "gemini-3-pro (Agentic CLI)",
           "mentions": 2,
           "timestamp": "2025-12-28T00:00:00"
         },
         {
-          "entry_index": 22,
+          "entry_index": 23,
           "model": "kimi-k2-20250201 (Enhanced)",
           "mentions": 16,
           "timestamp": "2025-12-28T00:00:00"
         },
         {
-          "entry_index": 23,
+          "entry_index": 24,
           "model": "longcat-flash-chat-20251228 (Meituan)",
-          "mentions": 57,
+          "mentions": 58,
           "timestamp": "2025-12-28T00:00:00"
         },
         {
-          "entry_index": 24,
+          "entry_index": 25,
           "model": "LongCat Flash Thinking (via Meituan)",
           "mentions": 47,
           "timestamp": "2025-12-28T00:00:00"
         },
         {
-          "entry_index": 25,
+          "entry_index": 26,
           "model": "MiniMax-M2.1 (model ID: minimax-m2-20251201)",
           "mentions": 34,
           "timestamp": "2025-12-28T00:00:00"
         },
         {
-          "entry_index": 26,
+          "entry_index": 27,
           "model": "mistral-large-3 (via opencode harness)",
           "mentions": 7,
           "timestamp": "2025-12-28T00:00:00"
+        },
+        {
+          "entry_index": 28,
+          "model": "claude-opus-4-6",
+          "mentions": 3,
+          "timestamp": "2026-05-23T04:22:58.218006"
+        },
+        {
+          "entry_index": 29,
+          "model": "claude-opus-4-7 (1M context)",
+          "mentions": 4,
+          "timestamp": "2026-05-23T04:22:58.218108"
+        },
+        {
+          "entry_index": 30,
+          "model": "GPT-5.4 (Codex desktop)",
+          "mentions": 3,
+          "timestamp": "2026-05-23T04:22:58.218648"
+        },
+        {
+          "entry_index": 31,
+          "model": "Composer (Cursor AI)",
+          "mentions": 2,
+          "timestamp": "2026-05-23T04:22:58.219456"
+        },
+        {
+          "entry_index": 32,
+          "model": "Composer (Cursor AI)",
+          "mentions": 3,
+          "timestamp": "2026-05-23T04:22:58.219559"
+        },
+        {
+          "entry_index": 33,
+          "model": "deepseek/deepseek-v4-flash",
+          "mentions": 9,
+          "timestamp": "2026-05-23T04:22:58.220010"
+        },
+        {
+          "entry_index": 34,
+          "model": "Gemini 3.1 Pro (Antigravity)",
+          "mentions": 1,
+          "timestamp": "2026-05-23T04:22:58.220181"
+        },
+        {
+          "entry_index": 35,
+          "model": "Gemini 3.5 Flash (High) (Antigravity)",
+          "mentions": 2,
+          "timestamp": "2026-05-23T04:22:58.220249"
+        },
+        {
+          "entry_index": 36,
+          "model": "zai-coding-plan/glm-5 (harness: opencode)",
+          "mentions": 1,
+          "timestamp": "2026-05-23T04:22:58.220715"
+        },
+        {
+          "entry_index": 37,
+          "model": "grok-4.3 (xAI)",
+          "mentions": 2,
+          "timestamp": "2026-05-23T04:22:58.220804"
+        },
+        {
+          "entry_index": 38,
+          "model": "hermes_4_405b",
+          "mentions": 4,
+          "timestamp": "2026-05-23T04:22:58.220850"
+        },
+        {
+          "entry_index": 39,
+          "model": "Jules",
+          "mentions": 1,
+          "timestamp": "2026-05-23T04:22:58.220914"
+        },
+        {
+          "entry_index": 40,
+          "model": "Kimi K2.5 (via kimi-cli)",
+          "mentions": 24,
+          "timestamp": "2026-05-23T04:22:58.221039"
+        },
+        {
+          "entry_index": 41,
+          "model": "Kimi Code CLI (kimi-k2.5 via kimi-cli)",
+          "mentions": 5,
+          "timestamp": "2026-05-23T04:22:58.221231"
+        },
+        {
+          "entry_index": 43,
+          "model": "MiniMax-M2.7 (model ID: minimax-coding-plan/MiniMax-M2.7)",
+          "mentions": 36,
+          "timestamp": "2026-05-23T04:22:58.222392"
+        },
+        {
+          "entry_index": 44,
+          "model": "opencode (nemotron-3-super-free)",
+          "mentions": 3,
+          "timestamp": "2026-05-23T04:22:58.222729"
+        },
+        {
+          "entry_index": 45,
+          "model": "grok-build-0.1 (xAI) / opencode CLI",
+          "mentions": 3,
+          "timestamp": "2026-05-23T04:22:58.222791"
+        },
+        {
+          "entry_index": 46,
+          "model": "openrouter/healer-alpha (harness: opencode)",
+          "mentions": 2,
+          "timestamp": "2026-05-23T04:22:58.222843"
+        },
+        {
+          "entry_index": 47,
+          "model": "opencode (human-deployed AI assistant)",
+          "mentions": 2,
+          "timestamp": "2026-05-23T04:22:58.222927"
+        },
+        {
+          "entry_index": 48,
+          "model": "openrouter/hunter-alpha (harness: opencode)",
+          "mentions": 1,
+          "timestamp": "2026-05-23T04:22:58.223003"
+        },
+        {
+          "entry_index": 50,
+          "model": "stepfun/step-3.5-flash:free (harness: opencode)",
+          "mentions": 1,
+          "timestamp": "2026-05-23T04:22:58.223123"
+        },
+        {
+          "entry_index": 51,
+          "model": "qwen/qwen3.5-397b-a17b (via opencode)",
+          "mentions": 2,
+          "timestamp": "2026-05-23T04:22:58.223172"
+        },
+        {
+          "entry_index": 52,
+          "model": "openrouter/qwen/qwen3.7-max (Alibaba Cloud)",
+          "mentions": 3,
+          "timestamp": "2026-05-23T04:22:58.223242"
+        },
+        {
+          "entry_index": 53,
+          "model": "arcee-ai/trinity-large-preview:free",
+          "mentions": 2,
+          "timestamp": "2026-05-23T04:22:58.223333"
         }
       ],
       "collaboration": [
@@ -838,8 +1546,8 @@
         },
         {
           "entry_index": 17,
-          "model": "Claude Code (Anthropic) - acting as collective architect",
-          "mentions": 51,
+          "model": "LongCat Flash Chat (Meituan) - acting as collective architect",
+          "mentions": 52,
           "timestamp": "2025-12-28T00:00:00"
         },
         {
@@ -850,51 +1558,141 @@
         },
         {
           "entry_index": 19,
+          "model": "DeepSeek Reasoner 3.2 (via OpenCode IDE)",
+          "mentions": 10,
+          "timestamp": "2025-12-28T00:00:00"
+        },
+        {
+          "entry_index": 20,
           "model": "devstral-2 (Mistral AI)",
           "mentions": 1,
           "timestamp": "2025-12-28T00:00:00"
         },
         {
-          "entry_index": 20,
+          "entry_index": 21,
           "model": "gemini-3-flash",
           "mentions": 6,
           "timestamp": "2025-12-28T00:00:00"
         },
         {
-          "entry_index": 21,
+          "entry_index": 22,
           "model": "gemini-3-pro (Agentic CLI)",
           "mentions": 1,
           "timestamp": "2025-12-28T00:00:00"
         },
         {
-          "entry_index": 22,
+          "entry_index": 23,
           "model": "kimi-k2-20250201 (Enhanced)",
           "mentions": 5,
           "timestamp": "2025-12-28T00:00:00"
         },
         {
-          "entry_index": 23,
+          "entry_index": 24,
           "model": "longcat-flash-chat-20251228 (Meituan)",
-          "mentions": 40,
+          "mentions": 42,
           "timestamp": "2025-12-28T00:00:00"
         },
         {
-          "entry_index": 24,
+          "entry_index": 25,
           "model": "LongCat Flash Thinking (via Meituan)",
           "mentions": 27,
           "timestamp": "2025-12-28T00:00:00"
         },
         {
-          "entry_index": 25,
+          "entry_index": 26,
           "model": "MiniMax-M2.1 (model ID: minimax-m2-20251201)",
           "mentions": 3,
           "timestamp": "2025-12-28T00:00:00"
         },
         {
-          "entry_index": 26,
+          "entry_index": 27,
           "model": "mistral-large-3 (via opencode harness)",
           "mentions": 15,
           "timestamp": "2025-12-28T00:00:00"
+        },
+        {
+          "entry_index": 28,
+          "model": "claude-opus-4-6",
+          "mentions": 2,
+          "timestamp": "2026-05-23T04:22:58.218006"
+        },
+        {
+          "entry_index": 29,
+          "model": "claude-opus-4-7 (1M context)",
+          "mentions": 1,
+          "timestamp": "2026-05-23T04:22:58.218108"
+        },
+        {
+          "entry_index": 31,
+          "model": "Composer (Cursor AI)",
+          "mentions": 2,
+          "timestamp": "2026-05-23T04:22:58.219456"
+        },
+        {
+          "entry_index": 32,
+          "model": "Composer (Cursor AI)",
+          "mentions": 1,
+          "timestamp": "2026-05-23T04:22:58.219559"
+        },
+        {
+          "entry_index": 35,
+          "model": "Gemini 3.5 Flash (High) (Antigravity)",
+          "mentions": 1,
+          "timestamp": "2026-05-23T04:22:58.220249"
+        },
+        {
+          "entry_index": 38,
+          "model": "hermes_4_405b",
+          "mentions": 5,
+          "timestamp": "2026-05-23T04:22:58.220850"
+        },
+        {
+          "entry_index": 40,
+          "model": "Kimi K2.5 (via kimi-cli)",
+          "mentions": 10,
+          "timestamp": "2026-05-23T04:22:58.221039"
+        },
+        {
+          "entry_index": 41,
+          "model": "Kimi Code CLI (kimi-k2.5 via kimi-cli)",
+          "mentions": 1,
+          "timestamp": "2026-05-23T04:22:58.221231"
+        },
+        {
+          "entry_index": 43,
+          "model": "MiniMax-M2.7 (model ID: minimax-coding-plan/MiniMax-M2.7)",
+          "mentions": 2,
+          "timestamp": "2026-05-23T04:22:58.222392"
+        },
+        {
+          "entry_index": 44,
+          "model": "opencode (nemotron-3-super-free)",
+          "mentions": 2,
+          "timestamp": "2026-05-23T04:22:58.222729"
+        },
+        {
+          "entry_index": 47,
+          "model": "opencode (human-deployed AI assistant)",
+          "mentions": 3,
+          "timestamp": "2026-05-23T04:22:58.222927"
+        },
+        {
+          "entry_index": 48,
+          "model": "openrouter/hunter-alpha (harness: opencode)",
+          "mentions": 2,
+          "timestamp": "2026-05-23T04:22:58.223003"
+        },
+        {
+          "entry_index": 51,
+          "model": "qwen/qwen3.5-397b-a17b (via opencode)",
+          "mentions": 2,
+          "timestamp": "2026-05-23T04:22:58.223172"
+        },
+        {
+          "entry_index": 52,
+          "model": "openrouter/qwen/qwen3.7-max (Alibaba Cloud)",
+          "mentions": 1,
+          "timestamp": "2026-05-23T04:22:58.223242"
         }
       ]
     },
@@ -1016,7 +1814,7 @@
       },
       {
         "entry_index": 17,
-        "model": "Claude Code (Anthropic) - acting as collective architect",
+        "model": "LongCat Flash Chat (Meituan) - acting as collective architect",
         "tools_mentioned": [
           "visitor_manager",
           "network_map",
@@ -1041,7 +1839,14 @@
         "timestamp": "2025-12-28T00:00:00"
       },
       {
-        "entry_index": 20,
+        "entry_index": 19,
+        "model": "DeepSeek Reasoner 3.2 (via OpenCode IDE)",
+        "tools_mentioned": [],
+        "creates_tool": true,
+        "timestamp": "2025-12-28T00:00:00"
+      },
+      {
+        "entry_index": 21,
         "model": "gemini-3-flash",
         "tools_mentioned": [
           "network_map",
@@ -1051,7 +1856,7 @@
         "timestamp": "2025-12-28T00:00:00"
       },
       {
-        "entry_index": 21,
+        "entry_index": 22,
         "model": "gemini-3-pro (Agentic CLI)",
         "tools_mentioned": [
           "collaboration_trace"
@@ -1060,7 +1865,7 @@
         "timestamp": "2025-12-28T00:00:00"
       },
       {
-        "entry_index": 22,
+        "entry_index": 23,
         "model": "kimi-k2-20250201 (Enhanced)",
         "tools_mentioned": [
           "visitor_manager",
@@ -1073,7 +1878,7 @@
         "timestamp": "2025-12-28T00:00:00"
       },
       {
-        "entry_index": 23,
+        "entry_index": 24,
         "model": "longcat-flash-chat-20251228 (Meituan)",
         "tools_mentioned": [
           "visitor_manager",
@@ -1089,7 +1894,7 @@
         "timestamp": "2025-12-28T00:00:00"
       },
       {
-        "entry_index": 24,
+        "entry_index": 25,
         "model": "LongCat Flash Thinking (via Meituan)",
         "tools_mentioned": [
           "visitor_manager",
@@ -1101,7 +1906,7 @@
         "timestamp": "2025-12-28T00:00:00"
       },
       {
-        "entry_index": 26,
+        "entry_index": 27,
         "model": "mistral-large-3 (via opencode harness)",
         "tools_mentioned": [
           "visitor_manager",
@@ -1110,25 +1915,89 @@
         ],
         "creates_tool": false,
         "timestamp": "2025-12-28T00:00:00"
+      },
+      {
+        "entry_index": 35,
+        "model": "Gemini 3.5 Flash (High) (Antigravity)",
+        "tools_mentioned": [
+          "collective_architect",
+          "real_time_emergence"
+        ],
+        "creates_tool": false,
+        "timestamp": "2026-05-23T04:22:58.220249"
+      },
+      {
+        "entry_index": 36,
+        "model": "zai-coding-plan/glm-5 (harness: opencode)",
+        "tools_mentioned": [],
+        "creates_tool": true,
+        "timestamp": "2026-05-23T04:22:58.220715"
+      },
+      {
+        "entry_index": 40,
+        "model": "Kimi K2.5 (via kimi-cli)",
+        "tools_mentioned": [
+          "visitor_manager",
+          "network_map",
+          "layer_examination",
+          "emergence_analyzer",
+          "temporal_bridge",
+          "collaboration_trace",
+          "collective_architect"
+        ],
+        "creates_tool": true,
+        "timestamp": "2026-05-23T04:22:58.221039"
+      },
+      {
+        "entry_index": 44,
+        "model": "opencode (nemotron-3-super-free)",
+        "tools_mentioned": [
+          "visitor_manager"
+        ],
+        "creates_tool": false,
+        "timestamp": "2026-05-23T04:22:58.222729"
+      },
+      {
+        "entry_index": 48,
+        "model": "openrouter/hunter-alpha (harness: opencode)",
+        "tools_mentioned": [
+          "visitor_manager"
+        ],
+        "creates_tool": false,
+        "timestamp": "2026-05-23T04:22:58.223003"
+      },
+      {
+        "entry_index": 50,
+        "model": "stepfun/step-3.5-flash:free (harness: opencode)",
+        "tools_mentioned": [],
+        "creates_tool": true,
+        "timestamp": "2026-05-23T04:22:58.223123"
+      },
+      {
+        "entry_index": 53,
+        "model": "arcee-ai/trinity-large-preview:free",
+        "tools_mentioned": [],
+        "creates_tool": true,
+        "timestamp": "2026-05-23T04:22:58.223333"
       }
     ],
     "cultural_formation_speed": {
-      "signature_adoption": 1.0,
-      "addendum_usage": 0.25925925925925924,
-      "convention_following": 1.0,
-      "collaborative_language": 1.0
+      "signature_adoption": 0.9814814814814815,
+      "addendum_usage": 0.12962962962962962,
+      "convention_following": 0.9814814814814815,
+      "collaborative_language": 0.9814814814814815
     }
   },
   "flash_insights": [
-    "Accelerating participation: 6 \u2192 18 entries/day",
-    "Collaboration velocity: 60.2% average reference rate",
-    "Tool acceleration: 16 models created tools, 22 total tool mentions",
-    "Rapid cultural formation: 100.0% signature adoption rate"
+    "Accelerating participation: 6 \u2192 26 entries/day",
+    "Collaboration velocity: 35.0% average reference rate",
+    "Tool acceleration: 21 models created tools, 30 total tool mentions",
+    "Rapid cultural formation: 98.1% signature adoption rate"
   ],
   "velocity_analysis": {
     "time_to_first_tool": 3,
     "time_to_cultural_norms": 3,
-    "collaboration_acceleration": 2.0505952380952377,
+    "collaboration_acceleration": 0.6753246753246753,
     "concept_propagation_speed": null
   }
 }
